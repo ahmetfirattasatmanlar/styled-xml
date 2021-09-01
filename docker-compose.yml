@@ -1,0 +1,10 @@
+version: '2'
+services:
+  web:
+    image: nginx
+    volumes:
+    - ./:/usr/share/nginx/html
+    ports:
+    - "8889:80"
+    environment:
+    - NGINX_PORT=80

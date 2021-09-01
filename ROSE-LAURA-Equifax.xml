@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
+		<CNConsumerCreditReports>
+			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
+				<CNHeader>
+					<Request>
+						<Protocol>COND</Protocol>
+						<CustomerReferenceNumber>2495</CustomerReferenceNumber>
+						<CustomerNumber>999FP00200</CustomerNumber>
+						<LanguageIndicator>E</LanguageIndicator>
+						<InquiryType>I</InquiryType>
+						<OutputFormatCode>X</OutputFormatCode>
+					</Request>
+					<CreditFile>
+						<UniqueNumber>0041200981</UniqueNumber>
+						<FileSinceDate>2011-11-22</FileSinceDate>
+						<DateOfLastActivity>2018-12-04</DateOfLastActivity>
+						<DateOfRequest>2021-07-05</DateOfRequest>
+						<FileOwner>
+							<BureauCode>180</BureauCode>
+							<BureauContactInformation>Equifax  inc.</BureauContactInformation>
+						</FileOwner>
+						<HitCode code="1" description="HIT" />
+						<HitStrengthIndicator code="11" description="Regular hit" />
+					</CreditFile>
+					<Subject>
+						<SubjectName>
+							<LastName>ROSE</LastName>
+							<FirstName>LAURA</FirstName>
+						</SubjectName>
+						<SubjectId>
+							<DateOfBirth type="DATE">1977-02-07</DateOfBirth>
+						</SubjectId>
+					</Subject>
+				</CNHeader>
+				<CNAddresses>
+					<CNAddress code="CA" description="Current Address">
+						<DateReported>2018-12</DateReported>
+						<CivicNumber>20</CivicNumber>
+						<StreetName>GIBSON</StreetName>
+						<City code="TOR">TORONTO</City>
+						<Province code="ON" description="ONTARIO" />
+						<PostalCode>M9N3Z3</PostalCode>
+						<UpdateSource code="C" description="Crt rptd" />
+					</CNAddress>
+				</CNAddresses>
+				<CNTrades>
+					<CNTrade>
+						<DateReported>2018-12</DateReported>
+						<CreditorId>
+							<CustomerNumber>481BB00600</CustomerNumber>
+							<Name>ROYAL BANK OF CANADA</Name>
+						</CreditorId>
+						<AccountNumber>2489829</AccountNumber>
+						<HighCreditAmount>000000028000</HighCreditAmount>
+						<BalanceAmount>000000002000</BalanceAmount>
+						<MonthsReviewed>02</MonthsReviewed>
+						<DateOpened>2017-12</DateOpened>
+						<DateLastActivityOrPayment>2018-12</DateLastActivityOrPayment>
+						<PortfolioType code="I" description="Installment" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="AO" description="Auto" />
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2018-12</DateReported>
+						<CreditorId>
+							<CustomerNumber>650DC00016</CustomerNumber>
+							<Name>CHASE SEARS</Name>
+						</CreditorId>
+						<AccountNumber>62487428748</AccountNumber>
+						<HighCreditAmount>000000010000</HighCreditAmount>
+						<BalanceAmount>000000000200</BalanceAmount>
+						<MonthsReviewed>02</MonthsReviewed>
+						<DateOpened>2006-01</DateOpened>
+						<DateLastActivityOrPayment>2018-12</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+							<Narrative code="AZ" description="Amount in h/c column is credit limit" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2018-12</DateReported>
+						<CreditorId>
+							<CustomerNumber>650DC00040</CustomerNumber>
+							<Name>HUDSONS BAY</Name>
+						</CreditorId>
+						<AccountNumber>2019281721999</AccountNumber>
+						<HighCreditAmount>000000004200</HighCreditAmount>
+						<BalanceAmount>000000004200</BalanceAmount>
+						<MonthsReviewed>02</MonthsReviewed>
+						<DateOpened>2017-12</DateOpened>
+						<DateLastActivityOrPayment>2018-12</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+							<Narrative code="AZ" description="Amount in h/c column is credit limit" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2018-12</DateReported>
+						<CreditorId>
+							<CustomerNumber>481BB00600</CustomerNumber>
+							<Name>ROYAL BANK OF CANADA</Name>
+						</CreditorId>
+						<AccountNumber>2489822</AccountNumber>
+						<HighCreditAmount>000000128000</HighCreditAmount>
+						<MonthsReviewed>02</MonthsReviewed>
+						<DateOpened>2001-01</DateOpened>
+						<DateLastActivityOrPayment>2018-12</DateLastActivityOrPayment>
+						<PortfolioType code="I" description="Installment" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="AO" description="Auto" />
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+				</CNTrades>
+				<CNScores>
+					<CNScore productType="SCBS" productId="30129" description="FICO">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>R</ScoreIndicator>
+						<RejectCodes>
+							<RejectCode code="R" description="Fico Score not available, no recently reported account information." />
+						</RejectCodes>
+					</CNScore>
+				</CNScores>
+				<CNFraudWarnings>
+					<CNFraudWarning productId="SF" description="SAFESCAN WARNING">
+						<Messages>
+							<Message priority="000" code="0" description="NO FRAUD INDICATION WAS DETECTED" />
+						</Messages>
+					</CNFraudWarning>
+				</CNFraudWarnings>
+				<CNExtendedTrades>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>481BB00600</CustomerNumber>
+							<Name>ROYAL BANK OF CANADA</Name>
+						</CreditorId>
+						<ETDateReported>2018-12-01</ETDateReported>
+						<ETDateOpened>2017-12-30</ETDateOpened>
+						<DateOfLastActivity>2018-12-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>002</TimesReported>
+						<HighCreditAmount>0000028000</HighCreditAmount>
+						<BalanceAmount>0000002000</BalanceAmount>
+						<AccountNumber>2489829</AccountNumber>
+						<AccountType code="02" description="AUTO"/>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2018-12-01</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2018-11-29</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650DC00016</CustomerNumber>
+							<Name>CHASE SEARS</Name>
+						</CreditorId>
+						<ETDateReported>2018-12-01</ETDateReported>
+						<ETDateOpened>2006-01-30</ETDateOpened>
+						<DateOfLastActivity>2018-12-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>002</TimesReported>
+						<CreditLimitAmount>0000010000</CreditLimitAmount>
+						<BalanceAmount>0000000200</BalanceAmount>
+						<AccountNumber>62487428748</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2018-12-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2018-11-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650DC00040</CustomerNumber>
+							<Name>HUDSONS BAY</Name>
+						</CreditorId>
+						<ETDateReported>2018-12-01</ETDateReported>
+						<ETDateOpened>2017-12-30</ETDateOpened>
+						<DateOfLastActivity>2018-12-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>002</TimesReported>
+						<CreditLimitAmount>0000004200</CreditLimitAmount>
+						<BalanceAmount>0000004200</BalanceAmount>
+						<AccountNumber>2019281721999</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2018-12-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2018-11-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>481BB00600</CustomerNumber>
+							<Name>ROYAL BANK OF CANADA</Name>
+						</CreditorId>
+						<ETDateReported>2018-12-01</ETDateReported>
+						<ETDateOpened>2001-01-30</ETDateOpened>
+						<DateOfLastActivity>2018-12-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>002</TimesReported>
+						<HighCreditAmount>0000128000</HighCreditAmount>
+						<AccountNumber>2489822</AccountNumber>
+						<AccountType code="02" description="AUTO"/>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2018-12-01</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2018-11-29</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+				</CNExtendedTrades>
+			</CNConsumerCreditReport>
+		</CNConsumerCreditReports>
+	</EfxReport>
+</EfxTransmit>
