@@ -555,7 +555,7 @@ Number
 									</td>
 								</tr>
 								<tr>
-									<td>
+									<td colspan="12">
 										<table class="TradesTable">
 											<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNTrades/a:CNTrade[a:PortfolioType/@code='I']">
 												
@@ -592,8 +592,8 @@ Number
 											
 				
 												<tr>
-													<td class='TableHeader FieldHeader'>Bus</td>
-													<td class='TableHeader FieldHeader'>ID Code</td>
+													<td style="width:10%" class='TableHeader FieldHeader'>Bus</td>
+													<td style="width:10%" class='TableHeader FieldHeader'>ID Code</td>
 													<td class='TableHeader FieldHeader'>Rptd</td>
 													<td class='TableHeader FieldHeader'>Opnd</td>
 													<td class='TableHeader FieldHeader'>HC</td>
@@ -633,7 +633,7 @@ Number
 													</td>
 												</tr>
 												<tr>
-													<td class='FieldHeader TableHeader'>Prev Hi Rates:</td>
+													<td style="width:20%" class='FieldHeader TableHeader'>Prev Hi Rates:</td>
 													<td class='FieldData' colspan='11'>
 														<xsl:for-each select="a:PreviousHighPaymentRates/a:PreviousHighPaymentRate">
 															<xsl:value-of select="@code" />(<xsl:value-of select="a:Date" />),
@@ -641,7 +641,7 @@ Number
 													</td>
 												</tr>
 												<tr>
-													<td class='FieldHeader TableHeader'>Narrative:</td>
+													<td style="width:20%"  class='FieldHeader TableHeader'>Narrative:</td>
 													<td colspan='11' class='FieldData'>
 														<xsl:for-each select="a:Narratives/a:Narrative">
 															<xsl:value-of select="@description" />,
@@ -667,7 +667,7 @@ Number
 									</td>
 								</tr>
 								<tr>
-									<td>
+									<td colspan="12">
 										<table class="TradesTable">
 											<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNTrades/a:CNTrade[a:PortfolioType/@code='R']">
 											<xsl:variable name="HC30">
@@ -703,8 +703,8 @@ Number
 											
 				
 												<tr>
-													<td class='TableHeader FieldHeader'>Bus</td>
-													<td class='TableHeader FieldHeader'>ID Code</td>
+													<td style="width:10%" class='TableHeader FieldHeader'>Bus</td>
+													<td style="width:10%" class='TableHeader FieldHeader'>ID Code</td>
 													<td class='TableHeader FieldHeader'>Rptd</td>
 													<td class='TableHeader FieldHeader'>Opnd</td>
 													<td class='TableHeader FieldHeader'>HC</td>
@@ -744,7 +744,7 @@ Number
 													</td>
 												</tr>
 												<tr>
-													<td class='FieldHeader TableHeader'>Prev Hi Rates:</td>
+													<td style="width:20%" class='FieldHeader TableHeader'>Prev Hi Rates:</td>
 													<td class='FieldData' colspan='11'>
 														<xsl:for-each select="a:PreviousHighPaymentRates/a:PreviousHighPaymentRate">
 															<xsl:value-of select="@code" />(<xsl:value-of select="a:Date" />),
@@ -752,7 +752,7 @@ Number
 													</td>
 												</tr>
 												<tr>
-													<td class='FieldHeader TableHeader'>Narrative:</td>
+													<td style="width:20%" class='FieldHeader TableHeader'>Narrative:</td>
 													<td colspan='11' class='FieldData'>
 														<xsl:for-each select="a:Narratives/a:Narrative">
 															<xsl:value-of select="@description" />,
@@ -831,7 +831,7 @@ Number
 										<td class='FieldData'><xsl:value-of select="a:CourtId/a:CustomerNumber" /></td>
 										<td class='FieldData'><xsl:value-of select="a:CourtId/a:Name" /></td>
 										<td class='FieldData'><xsl:value-of select="a:CaseNumber" /></td>
-										<td class='FieldData'><xsl:value-of select="a:Status" /></td>
+										<td class='FieldData'><xsl:value-of select="a:Status/@code" /></td>
 										<td class='FieldData'><xsl:value-of select="format-number(a:Amount, '#,##0.00')" /></td>										
 										<td class='FieldData'><xsl:value-of select="a:Defendant" /></td>
 										<td class='FieldData'><xsl:value-of select="a:Plaintiff" /></td>
