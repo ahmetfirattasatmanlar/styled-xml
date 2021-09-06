@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="style.xsl" ?>
-<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd">
 	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
 		<CNConsumerCreditReports>
 			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
@@ -70,6 +71,34 @@
 						<IntentOrDisposition code="A" description="Discharged"/>
 					</CNBankruptcyOrAct>
 				</CNBankruptciesOrActs>
+				<CNOtherIncomes>
+					<CNOtherIncome>
+						<DateReported>2016-09</DateReported>
+						<Amount>000000000800</Amount>
+						<IncomeSource>PART TIME ADAIR ACCOUNTING</IncomeSource>
+						<VerificationDate>2016-10</VerificationDate>
+					</CNOtherIncome>
+				</CNOtherIncomes>
+
+				<CNSecuredLoans>
+					<CNSecuredLoan>
+						<DateFiled>2013-11</DateFiled>
+						<CourtId>
+							<CustomerNumber>650VS00055</CustomerNumber>
+							<Name>MINISTRY GOVT SERV</Name>
+						</CourtId>
+						<SecuredLoanCreditorId>
+							<NameAddressAndAmount>6234340000 HONDA CANADA FINANCE INC $19428</NameAddressAndAmount>
+							<Industry code="FA" description="Auto financing"/>
+						</SecuredLoanCreditorId>
+						<MaturityDate>2017-11</MaturityDate>
+						<Narratives>
+							<Narrative code="GB" description="Security Deposit Unknown"/>
+						</Narratives>
+					</CNSecuredLoan>
+				</CNSecuredLoans>
+
+
 				<CNCollections>
 					<CNCollection code="UC" description="Unpaid Collection">
 						<AssignedDate>2017-10</AssignedDate>

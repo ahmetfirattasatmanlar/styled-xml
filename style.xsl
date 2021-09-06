@@ -3,7 +3,24 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:a="http://www.equifax.ca/XMLSchemas/EfxToCust">
 	<xsl:decimal-format NaN="0"/>
-	
+	<xsl:template name="TrimLeft">
+        <xsl:param name="input" />
+        <xsl:param name="trim" select="$whitespaceCharacters" />
+         
+        <xsl:if test="string-length($input) &gt; 0">
+            <xsl:choose>
+                <xsl:when test="contains($trim, substring($input, 1, 1))">
+                    <xsl:call-template name="TrimLeft">
+                        <xsl:with-param name="input" select="substring($input, 2)" />
+                        <xsl:with-param name="trim" select="$trim" />
+                    </xsl:call-template>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$input" />
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:if>
+    </xsl:template>
 	<xsl:template match="/">
 		<html>
 			<style type="text/css">
@@ -142,24 +159,22 @@
 										<td class="FieldData"/>
 									</tr>
 									<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNFraudWarnings">
-										<tr>
-											<th colspan="4">
-												<xsl:value-of select="a:CNFraudWarning/@description"/>
- 
-												-											
-												
-												
-												
-												
-												
-												<xsl:value-of select="position()"/>
-											</th>
-										</tr>
-										<tr>
-											<td colspan="4">
-												<xsl:value-of select="a:CNFraudWarning/a:Messages/a:Message/@description"/>
-											</td>
-										</tr>
+										<xsl:if test="a:CNFraudWarning/a:Messages/a:Message/@code != '0'">
+											<tr>
+												<th colspan="4">
+													<xsl:value-of select="a:CNFraudWarning/@description"/>
+	
+													-				
+													
+													<xsl:value-of select="position()"/>
+												</th>
+											</tr>
+											<tr>
+												<td colspan="4">
+													<xsl:value-of select="a:CNFraudWarning/a:Messages/a:Message/@description"/>
+												</td>
+											</tr>
+										</xsl:if>
 									</xsl:for-each>
 									<tr>
 										<th colspan="4" class="FieldHeader">Hit No Hit Designator Code:</th>
@@ -194,7 +209,7 @@
 										<tr>
 											<td class="FieldHeader">Product Score:</td>
 											<td class="FieldData">
-												<xsl:value-of select="a:Result/a:Value"/>
+												<xsl:value-of select="format-number(a:Result/a:Value, '###')"/>
 											</td>
 										</tr>
 										<tr>
@@ -229,6 +244,53 @@
 						</td>
 					</tbody>
 				</table>
+
+
+
+				<table class="MainTable">
+					<thead>
+						<th class="SegmentHeader">BNI Score Segment(s)</th>
+					</thead>
+					<tbody>
+						<td>
+							<table class="SegmentTable StripedTable">
+								<tr>
+
+									<td class='FieldHeader'>CustomerNumber</td>
+									<td class='FieldHeader'>CourtName</td>
+									<td class='FieldHeader'>Industry</td>
+									<td class='FieldHeader'>NameAddressAndAmount</td>
+									<td class='FieldHeader'>MaturityDate</td>
+									<td class='FieldHeader'>DateFiled</td>
+		
+									
+				
+								</tr>
+								<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNSecuredLoans/a:CNSecuredLoan">
+									<tr>
+										
+										<td class='FieldData'><xsl:value-of select="a:CourtId/a:CustomerNumber" /></td>
+										<td class='FieldData'><xsl:value-of select="a:CourtId/a:Name" /></td>
+										<td class='FieldData'><xsl:value-of select="a:SecuredLoanCreditorId/a:Industry/@code" /></td>
+										<td class='FieldData'><xsl:value-of select="a:SecuredLoanCreditorId/a:NameAddressAndAmount" /></td>
+										<td class='FieldData'><xsl:value-of select="a:MaturityDate" /></td>
+										<td class='FieldData'><xsl:value-of select="a:DateFiled" /></td>
+																			
+										
+
+
+
+									</tr>
+								</xsl:for-each>
+							</table>
+						</td>
+					</tbody>
+				</table>
+
+
+
+
+
 				<table class="MainTable">
 					<thead>
 						<th class="SegmentHeader">Address Segment(s)</th>
@@ -352,7 +414,8 @@
 											<xsl:value-of select="@description"/>
 										</td>
 										<td class="FieldData"/>
-										<td class="FieldData"/>
+										<td class="FieldData"><xsl:value-of select="a:Occupation"/></td>
+										
 										<td class="FieldData">
 											<xsl:value-of select="a:Employer"/>
 										</td>
@@ -368,6 +431,85 @@
 						</td>
 					</tbody>
 				</table>
+
+				<table class="MainTable">
+					<thead>
+						<th class="SegmentHeader">Other Incomes Segment(s)</th>
+					</thead>
+					<tbody>
+						<td>
+							<table class="SegmentTable StripedTable">
+								<tr>
+									
+									<td class='FieldHeader'>IncomeSource</td>
+									<td class='FieldHeader'>Amount</td>			
+									<td class='FieldHeader'>VerificationDate</td>
+									<td class='FieldHeader'>DateReported</td>
+									
+				
+								</tr>
+								<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNOtherIncomes/a:CNOtherIncome">
+									<tr>
+										
+										<td class='FieldData'><xsl:value-of select="a:IncomeSource" /></td>
+										<td class='FieldData'><xsl:value-of select="format-number(a:Amount, '#,##0.00')" /></td>												
+										<td class='FieldData'><xsl:value-of select="a:VerificationDate" /></td>
+										<td class='FieldData'><xsl:value-of select="a:DateReported" /></td>
+
+									</tr>
+								</xsl:for-each>
+							</table>
+						</td>
+					</tbody>
+				</table>
+
+
+
+
+
+				
+
+				<table class="MainTable">
+					<thead>
+						<th class="SegmentHeader">Bankruptcy Segment(s)</th>
+					</thead>
+					<tbody>
+						<td>
+							<table class="SegmentTable StripedTable">
+								<tr>
+
+									<td class='FieldHeader'>CustomerNumber</td>
+									<td class='FieldHeader'>Court Name</td>
+									<td class='FieldHeader'>Case Number</td>
+									<td class='FieldHeader'>Type</td>
+									<td class='FieldHeader'>Intent Or Disposition</td>					
+									<td class='FieldHeader'>Date</td>
+									
+				
+								</tr>
+								<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNBankruptciesOrActs/a:CNBankruptcyOrAct">
+									<tr>
+										
+										<td class='FieldData'><xsl:value-of select="a:CourtId/a:CustomerNumber" /></td>
+										<td class='FieldData'><xsl:value-of select="a:CourtId/a:Name" /></td>
+										<td class='FieldData'><xsl:value-of select="a:CaseNumberAndTrustee" /></td>
+										<td class='FieldData'><xsl:value-of select="a:Type/@code" /></td>
+										<td class='FieldData'><xsl:value-of select="a:IntentOrDisposition/@code" /></td>							
+										<td class='FieldData'><xsl:value-of select="a:DateFiled" /></td>
+
+									</tr>
+								</xsl:for-each>
+							</table>
+						</td>
+					</tbody>
+				</table>
+
+
+
+				
+
+
+
 				<table class="MainTable">
 					<thead>
 						<th class="SegmentHeader">Collection Segment(s)</th>
@@ -377,105 +519,16 @@
 							<table class="SegmentTable StripedTable">
 								<thead>
 									<tr>
-										<td class="FieldHeader">Type</td>
-										<td class="FieldHeader">Reason 
-											
-											
-											
-											
-											<br/>
-Code
-										
-										
-										
-										
-										</td>
-										<td class="FieldHeader">Foreign Bureau 
-											
-											
-											
-											
-											<br/>
-Code
-										
-										
-										
-										
-										</td>
-										<td class="FieldHeader">Date 
-											
-											
-											
-											
-											<br/>
-Reported
-										
-										
-										
-										
-										</td>
-										<td class="FieldHeader">Member 
-											
-											
-											
-											
-											<br/>
-Name
-										
-										
-										
-										
-										</td>
-										<td class="FieldHeader">Member 
-											
-											
-											
-											
-											<br/>
-Number
-										
-										
-										
-										
-										</td>
+										<td class="FieldHeader">Type/Reason</td>										
+										<td class="FieldHeader">Foreign Bureau <br/>Code</td>
+										<td class="FieldHeader">Date <br/>Reported</td>
+										<td class="FieldHeader">Member <br/>Name</td>
+										<td class="FieldHeader">Member <br/>Number</td>
 										<td class="FieldHeader">IndustryCode</td>
 										<td class="FieldHeader">Date Paid</td>
-										<td class="FieldHeader">Date Of 
-											
-											
-											
-											
-											<br/>
-Last Payment
-										
-										
-										
-										
-										</td>
-										<td class="FieldHeader">Creditor 
-											
-											
-											
-											
-											<br/>
-Name/Number
-										
-										
-										
-										
-										</td>
-										<td class="FieldHeader">Ledger 
-											
-											
-											
-											
-											<br/>
-Number
-										
-										
-										
-										
-										</td>
+										<td class="FieldHeader">Date Of <br/>Last Payment</td>
+										<td class="FieldHeader">Creditor <br/>Name/Number</td>
+										<td class="FieldHeader">Ledger <br/>Number</td>
 										<td class="FieldHeader">Amount</td>
 										<td class="FieldHeader">Balance</td>
 									</tr>
@@ -483,10 +536,7 @@ Number
 								<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNCollections/a:CNCollection">
 									<tr>
 										<td class="FieldData">
-											<xsl:value-of select="@code"/>
-										</td>
-										<td class="FieldData">
-											<xsl:value-of select="a:Reason/@code"/>
+											<xsl:value-of select="@description"/>
 										</td>
 										<td class="FieldData"/>
 										<td class="FieldData">
@@ -499,7 +549,9 @@ Number
 											<xsl:value-of select="a:AgencyId/a:Name"/>
 										</td>
 										<td class="FieldData"/>
-										<td class="FieldData"/>
+										<td class="FieldData">
+											<xsl:value-of select="a:DateOfLastPayment"/>
+										</td>
 										<td class="FieldData">
 											<xsl:value-of select="a:AssignedDate"/>
 										</td>
@@ -515,6 +567,8 @@ Number
 										<td class="FieldData">
 											<xsl:value-of select="format-number(a:BalanceAmount, '#,##0.00')"/>
 										</td>
+										
+										
 									</tr>
 									<tr>
 										<td colspan="13" class="FieldHeader">Narrative Codes:</td>
@@ -522,13 +576,7 @@ Number
 									<xsl:for-each select="a:Narratives/Narrative">
 										<tr>
 											<td colspan="13" class="FieldData">
-												<xsl:value-of select="@code"/>
- : 
-												
-												
-												
-												
-												<xsl:value-of select="@description"/>
+												<xsl:value-of select="@code"/>: <xsl:value-of select="@description"/>
 											</td>
 										</tr>
 									</xsl:for-each>
@@ -537,6 +585,55 @@ Number
 						</td>
 					</tbody>
 				</table>
+
+
+
+				<table class="MainTable">
+					<thead>
+						<th class="SegmentHeader">Legals Segment(s)</th>
+					</thead>
+					<tbody>
+						<td>
+							<table class="SegmentTable StripedTable">
+								<tr>
+
+									<td class='FieldHeader'>CustomerNumber</td>
+									<td class='FieldHeader'>Court Name</td>
+									<td class='FieldHeader'>Case Number</td>
+									<td class='FieldHeader'>Status</td>
+									<td class='FieldHeader'>Amount</td>
+									<td class='FieldHeader'>Defendant</td>
+									<td class='FieldHeader'>Plaintiff</td>
+									<td class='FieldHeader'>DateFiled</td>
+									<td class='FieldHeader'>DateSatisfied</td>
+									
+				
+								</tr>
+								<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNLegalItems/a:CNLegalItem">
+									<tr>
+										
+										<td class='FieldData'><xsl:value-of select="a:CourtId/a:CustomerNumber" /></td>
+										<td class='FieldData'><xsl:value-of select="a:CourtId/a:Name" /></td>
+										<td class='FieldData'><xsl:value-of select="a:CaseNumber" /></td>
+										<td class='FieldData'><xsl:value-of select="a:Status/@code" /></td>
+										<td class='FieldData'><xsl:value-of select="format-number(a:Amount, '#,##0.00')" /></td>										
+										<td class='FieldData'><xsl:value-of select="a:Defendant" /></td>
+										<td class='FieldData'><xsl:value-of select="a:Plaintiff" /></td>
+										<td class='FieldData'><xsl:value-of select="a:DateFiled" /></td>
+										<td class='FieldData'><xsl:value-of select="a:DateSatisfied" /></td>
+
+
+
+									</tr>
+								</xsl:for-each>
+							</table>
+						</td>
+					</tbody>
+				</table>
+
+
+
+
 				<table class="MainTable">
 					<thead>
 						<th class="SegmentHeader">Trade Check Segment(s)</th>
@@ -804,88 +901,17 @@ Number
 				</table>
 
 
-				<table class="MainTable">
-					<thead>
-						<th class="SegmentHeader">Legals Segment(s)</th>
-					</thead>
-					<tbody>
-						<td>
-							<table class="SegmentTable StripedTable">
-								<tr>
-
-									<td class='FieldHeader'>CustomerNumber</td>
-									<td class='FieldHeader'>Court Name</td>
-									<td class='FieldHeader'>Case Number</td>
-									<td class='FieldHeader'>Status</td>
-									<td class='FieldHeader'>Amount</td>
-									<td class='FieldHeader'>Defendant</td>
-									<td class='FieldHeader'>Plaintiff</td>
-									<td class='FieldHeader'>DateFiled</td>
-									<td class='FieldHeader'>DateSatisfied</td>
-									
 				
-								</tr>
-								<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNLegalItems/a:CNLegalItem">
-									<tr>
-										
-										<td class='FieldData'><xsl:value-of select="a:CourtId/a:CustomerNumber" /></td>
-										<td class='FieldData'><xsl:value-of select="a:CourtId/a:Name" /></td>
-										<td class='FieldData'><xsl:value-of select="a:CaseNumber" /></td>
-										<td class='FieldData'><xsl:value-of select="a:Status/@code" /></td>
-										<td class='FieldData'><xsl:value-of select="format-number(a:Amount, '#,##0.00')" /></td>										
-										<td class='FieldData'><xsl:value-of select="a:Defendant" /></td>
-										<td class='FieldData'><xsl:value-of select="a:Plaintiff" /></td>
-										<td class='FieldData'><xsl:value-of select="a:DateFiled" /></td>
-										<td class='FieldData'><xsl:value-of select="a:DateSatisfied" /></td>
-
-
-
-									</tr>
-								</xsl:for-each>
-							</table>
-						</td>
-					</tbody>
-				</table>
-
-
-
-
-				<table class="MainTable">
-					<thead>
-						<th class="SegmentHeader">Bankruptcy Segment(s)</th>
-					</thead>
-					<tbody>
-						<td>
-							<table class="SegmentTable StripedTable">
-								<tr>
-
-									<td class='FieldHeader'>CustomerNumber</td>
-									<td class='FieldHeader'>Court Name</td>
-									<td class='FieldHeader'>Case Number</td>
-									<td class='FieldHeader'>Type</td>
-									<td class='FieldHeader'>Intent Or Disposition</td>					
-									<td class='FieldHeader'>Date</td>
-									
 				
-								</tr>
-								<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNBankruptciesOrActs/a:CNBankruptcyOrAct">
-									<tr>
-										
-										<td class='FieldData'><xsl:value-of select="a:CourtId/a:CustomerNumber" /></td>
-										<td class='FieldData'><xsl:value-of select="a:CourtId/a:Name" /></td>
-										<td class='FieldData'><xsl:value-of select="a:CaseNumberAndTrustee" /></td>
-										<td class='FieldData'><xsl:value-of select="a:Type/@code" /></td>
-										<td class='FieldData'><xsl:value-of select="a:IntentOrDisposition/@code" /></td>							
-										<td class='FieldData'><xsl:value-of select="a:DateFiled" /></td>
 
 
 
-									</tr>
-								</xsl:for-each>
-							</table>
-						</td>
-					</tbody>
-				</table>
+
+				
+
+
+
+				
 
 			</body>
 		</html>
