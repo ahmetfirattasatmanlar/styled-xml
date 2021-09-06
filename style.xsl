@@ -847,6 +847,46 @@ Number
 					</tbody>
 				</table>
 
+
+
+
+				<table class="MainTable">
+					<thead>
+						<th class="SegmentHeader">Bankruptcy Segment(s)</th>
+					</thead>
+					<tbody>
+						<td>
+							<table class="SegmentTable StripedTable">
+								<tr>
+
+									<td class='FieldHeader'>CustomerNumber</td>
+									<td class='FieldHeader'>Court Name</td>
+									<td class='FieldHeader'>Case Number</td>
+									<td class='FieldHeader'>Type</td>
+									<td class='FieldHeader'>Intent Or Disposition</td>					
+									<td class='FieldHeader'>Date</td>
+									
+				
+								</tr>
+								<xsl:for-each select="a:EfxTransmit/a:EfxReport/a:CNConsumerCreditReports/a:CNConsumerCreditReport/a:CNBankruptciesOrActs/a:CNBankruptcyOrAct">
+									<tr>
+										
+										<td class='FieldData'><xsl:value-of select="a:CourtId/a:CustomerNumber" /></td>
+										<td class='FieldData'><xsl:value-of select="a:CourtId/a:Name" /></td>
+										<td class='FieldData'><xsl:value-of select="a:CaseNumberAndTrustee" /></td>
+										<td class='FieldData'><xsl:value-of select="a:Type/@code" /></td>
+										<td class='FieldData'><xsl:value-of select="a:IntentOrDisposition/@code" /></td>							
+										<td class='FieldData'><xsl:value-of select="a:DateFiled" /></td>
+
+
+
+									</tr>
+								</xsl:for-each>
+							</table>
+						</td>
+					</tbody>
+				</table>
+
 			</body>
 		</html>
 	</xsl:template>
