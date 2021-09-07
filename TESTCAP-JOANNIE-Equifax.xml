@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
+		<CNConsumerCreditReports>
+			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
+				<CNHeader>
+					<Request>
+						<Protocol>COND</Protocol>
+						<CustomerReferenceNumber>2495</CustomerReferenceNumber>
+						<CustomerNumber>999FP00200</CustomerNumber>
+						<LanguageIndicator>E</LanguageIndicator>
+						<InquiryType>I</InquiryType>
+						<OutputFormatCode>X</OutputFormatCode>
+					</Request>
+					<CreditFile>
+						<UniqueNumber>0041708108</UniqueNumber>
+						<FileSinceDate>2012-03-01</FileSinceDate>
+						<DateOfLastActivity>2021-07-05</DateOfLastActivity>
+						<DateOfRequest>2021-07-05</DateOfRequest>
+						<FileOwner>
+							<BureauCode>180</BureauCode>
+							<BureauContactInformation>Equifax  inc.</BureauContactInformation>
+						</FileOwner>
+						<HitCode code="1" description="HIT" />
+						<HitStrengthIndicator code="11" description="Regular hit" />
+					</CreditFile>
+					<Subject>
+						<SubjectName>
+							<LastName>TESTCAP</LastName>
+							<FirstName>JOANNIE</FirstName>
+						</SubjectName>
+						<SubjectId>
+							<DateOfBirth type="DATE">1970-02-16</DateOfBirth>
+						</SubjectId>
+					</Subject>
+				</CNHeader>
+				<CNAddresses>
+					<CNAddress code="CA" description="Current Address">
+						<DateReported>2021-06</DateReported>
+						<CivicNumber>75</CivicNumber>
+						<StreetName>HAZELGLEN DR</StreetName>
+						<City code="KIT">KITCHENER</City>
+						<Province code="ON" description="ONTARIO" />
+						<PostalCode>N2M2E2</PostalCode>
+						<UpdateSource code="C" description="Crt rptd" />
+					</CNAddress>
+					<CNAddress code="FA" description="Former Address">
+						<DateReported>2021-02</DateReported>
+						<CivicNumber>2385</CivicNumber>
+						<StreetName>SHEPPARD AVE</StreetName>
+						<City code="TOR">TORONTO</City>
+						<Province code="ON" description="ONTARIO" />
+						<PostalCode>M1B1B1</PostalCode>
+						<UpdateSource code="C" description="Crt rptd" />
+					</CNAddress>
+				</CNAddresses>
+				<CNEmployments>
+					<CNEmployment code="ES" description="Subject&apos;sCurrent Employment">
+						<Employer>SALES</Employer>
+					</CNEmployment>
+					<CNEmployment code="EF" description="Subject&apos;s Former Employment">
+						<Employer>MISC</Employer>
+					</CNEmployment>
+					<CNEmployment code="E2" description="Subject&apos;s 2nd Former Employment">
+						<Occupation>MANAGER</Occupation>
+					</CNEmployment>
+				</CNEmployments>
+				<CNBankruptciesOrActs>
+					<CNBankruptcyOrAct>
+						<DateFiled>2021-01</DateFiled>
+						<CourtId>
+							<CustomerNumber>473VS00181</CustomerNumber>
+							<Name>OFF SUP BKRPT</Name>
+						</CourtId>
+						<CaseNumberAndTrustee>67866688 TRUSTEE FIELD</CaseNumberAndTrustee>
+						<Type code="I" description="Individual" />
+						<Filer code="S" description="Subject" />
+						<IntentOrDisposition code="B" description="Undischarged"/>
+						<LiabilityAmount>000000024350</LiabilityAmount>
+						<AssetAmount>000000009800</AssetAmount>
+					</CNBankruptcyOrAct>
+				</CNBankruptciesOrActs>
+				<CNTrades>
+					<CNTrade>
+						<DateReported>2021-05</DateReported>
+						<CreditorId>
+							<CustomerNumber>650ON00044</CustomerNumber>
+							<Name>TD CREDIT CARDS</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>983-8472</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>20987958231350</AccountNumber>
+						<HighCreditAmount>000000010000</HighCreditAmount>
+						<BalanceAmount>000000010000</BalanceAmount>
+						<PastDueAmount>000000010000</PastDueAmount>
+						<DateOpened>2018-12</DateOpened>
+						<DateLastActivityOrPayment>2021-04</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="9" description="Bad debt, collection account or unable to locate" />
+						<Narratives>
+							<Narrative code="AK" description="Included in bankruptcy" />
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+				</CNTrades>
+				<CNLocalInquiries>
+					<CNLocalInquiry date="2021-07-05">
+						<CustomerId>
+							<CustomerNumber>402FP01840</CustomerNumber>
+							<Name>FAIRSTONE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>638-2274</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-05">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-04">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-02">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999VX00244</CustomerNumber>
+							<Name>MINISTRYOF</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999VX00053</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>227-5228</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999FZ01412</CustomerNumber>
+							<Name>ONE DEALER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>877</AreaCode>
+									<Number>624-6247</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-07-01">
+						<CustomerId>
+							<CustomerNumber>999FZ01271</CustomerNumber>
+							<Name>CARFINCO INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>413-7549</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>001ON02719</CustomerNumber>
+							<Name>MASTERCARD BNC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>622-2783</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999BB02424</CustomerNumber>
+							<Name>SIMPLIIFI</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>872-4724</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01271</CustomerNumber>
+							<Name>CARFINCO INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>413-7549</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>001ON03972</CustomerNumber>
+							<Name>HSBC BANK CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>866</AreaCode>
+									<Number>406-4722</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01271</CustomerNumber>
+							<Name>CARFINCO INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>413-7549</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999VX00053</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>227-5228</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-30">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FM00708</CustomerNumber>
+							<Name>CANNECT INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>766-2666</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999BB02424</CustomerNumber>
+							<Name>SIMPLIIFI</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>872-4724</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-29">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01271</CustomerNumber>
+							<Name>CARFINCO INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>413-7549</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999BB02424</CustomerNumber>
+							<Name>SIMPLIIFI</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>872-4724</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999VX00244</CustomerNumber>
+							<Name>MINISTRYOF</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>001ON02719</CustomerNumber>
+							<Name>MASTERCARD BNC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>622-2783</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999BB00915</CustomerNumber>
+							<Name>BQUE LAURENTIENNE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>284-5400</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01271</CustomerNumber>
+							<Name>CARFINCO INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>413-7549</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999VX00244</CustomerNumber>
+							<Name>MINISTRYOF</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999VX00244</CustomerNumber>
+							<Name>MINISTRYOF</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-27">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>001ON02719</CustomerNumber>
+							<Name>MASTERCARD BNC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>622-2783</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999BB02424</CustomerNumber>
+							<Name>SIMPLIIFI</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>872-4724</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999FA00396</CustomerNumber>
+							<Name>YAMAHA MOTOR FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>498-1911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999VX00244</CustomerNumber>
+							<Name>MINISTRYOF</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-26">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+				</CNLocalInquiries>
+				<CNForeignInquiries>
+					<CNForeignInquiry date="2021-05-26">
+						<CityNameOrInquiryNumber>INTLUSA 682FA10654</CityNameOrInquiryNumber>
+						<InquiryProvince>GMFCANTST</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-05-16">
+						<CityNameOrInquiryNumber>INTLUSA 667CG30157</CityNameOrInquiryNumber>
+						<InquiryProvince>CB/VICSCRT</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-05-15">
+						<CityNameOrInquiryNumber>INTLUSA 999JA00124</CityNameOrInquiryNumber>
+						<InquiryProvince>MKTMAX TST</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-05-05">
+						<CityNameOrInquiryNumber>INTLUSA 682FA10654</CityNameOrInquiryNumber>
+						<InquiryProvince>GMFCANTST</InquiryProvince>
+					</CNForeignInquiry>
+				</CNForeignInquiries>
+				<CNScores>
+					<CNScore productType="SCBS" productId="30129" description="FICO">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>S</ScoreIndicator>
+						<Result>
+							<Value>00514</Value>
+						</Result>
+						<Reasons>
+							<Reason code="00038" description="Serious delinquency and public record or collection filed." />
+							<Reason code="00010" description="Balance to limit on bank/national,LOC or other revolving acct too high" />
+							<Reason code="00014" description="Length of time accounts have been established." />
+							<Reason code="00013" description="Time since delinquency is too recent or unKnown." />
+						</Reasons>
+					</CNScore>
+				</CNScores>
+				<CNFraudWarnings>
+					<CNFraudWarning productId="SF" description="SAFESCAN WARNING">
+						<Messages>
+							<Message priority="003" code="1" description="POSSIBLE TRUE NAME FRAUD" />
+						</Messages>
+					</CNFraudWarning>
+				</CNFraudWarnings>
+				<CNExtendedTrades>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650ON00044</CustomerNumber>
+							<Name>TD CREDIT CARDS</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>983-8472</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<ETDateReported>2021-05-01</ETDateReported>
+						<ETDateOpened>2018-12-30</ETDateOpened>
+						<DateOfLastActivity>2021-04-30</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>001</TimesReported>
+						<HighCreditAmount>0000010000</HighCreditAmount>
+						<BalanceAmount>0000010000</BalanceAmount>
+						<PastDueAmount>0000010000</PastDueAmount>
+						<DateFirstDelinquency>2021-04-01</DateFirstDelinquency>
+						<AccountNumber>4520987958231350</AccountNumber>
+						<Narratives>
+							<Narrative code="AK" description="Included in bankruptcy"/>
+						</Narratives>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-05-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="9" description="Bad debt, collection account or unable to locate"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+				</CNExtendedTrades>
+				<CNTelephoneNumbers>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>514</AreaCode>
+								<Number>3943589</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2021-07-05</Date>
+								<SourceIdentifier>402FP01840</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2021-07-05</Date>
+								<SourceIdentifier>402FP01840</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="BUSINESS/WORK">
+								<AreaCode>418</AreaCode>
+								<Number>7767654</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2020-09-30</Date>
+								<SourceIdentifier>999FZ02121</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2021-06-24</Date>
+								<SourceIdentifier>999FZ02121</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>519</AreaCode>
+								<Number>7477000</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2013-02-14</Date>
+								<SourceIdentifier>999FA00206</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2021-06-24</Date>
+								<SourceIdentifier>999FZ02121</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+				</CNTelephoneNumbers>
+			</CNConsumerCreditReport>
+		</CNConsumerCreditReports>
+	</EfxReport>
+</EfxTransmit>

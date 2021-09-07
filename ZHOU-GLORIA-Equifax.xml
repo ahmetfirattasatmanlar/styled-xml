@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
+		<CNConsumerCreditReports>
+			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
+				<CNHeader>
+					<Request>
+						<Protocol>COND</Protocol>
+						<CustomerReferenceNumber>2495</CustomerReferenceNumber>
+						<CustomerNumber>999FP00200</CustomerNumber>
+						<LanguageIndicator>E</LanguageIndicator>
+						<InquiryType>I</InquiryType>
+						<OutputFormatCode>X</OutputFormatCode>
+					</Request>
+					<CreditFile>
+						<UniqueNumber>0026514786</UniqueNumber>
+						<FileSinceDate>2006-03-08</FileSinceDate>
+						<DateOfLastActivity>2021-04-29</DateOfLastActivity>
+						<DateOfRequest>2021-07-05</DateOfRequest>
+						<FileOwner>
+							<BureauCode>001</BureauCode>
+							<BureauContactInformation/>
+						</FileOwner>
+						<HitCode code="1" description="HIT" />
+						<HitStrengthIndicator code="11" description="Regular hit" />
+					</CreditFile>
+					<Subject>
+						<SubjectName>
+							<LastName>ZHOU</LastName>
+							<FirstName>GLORIA</FirstName>
+						</SubjectName>
+						<SubjectId>
+							<DateOfBirth type="DATE">1972-01-09</DateOfBirth>
+						</SubjectId>
+					</Subject>
+				</CNHeader>
+				<CNAddresses>
+					<CNAddress code="CA" description="Current Address">
+						<DateReported>2019-05</DateReported>
+						<CivicNumber>1001</CivicNumber>
+						<StreetName>BRAMFIELD PLACE</StreetName>
+						<City code="BWOD">BRENTWOOD BAY</City>
+						<Province code="BC" description="BRITISH COLUMBIA" />
+						<PostalCode>V8M1A4</PostalCode>
+						<UpdateSource code="C" description="Crt rptd" />
+					</CNAddress>
+				</CNAddresses>
+				<CNEmployments>
+					<CNEmployment code="ES" description="Subject&apos;sCurrent Employment">
+						<Occupation>TESTER</Occupation>
+						<Employer>STORIS</Employer>
+					</CNEmployment>
+					<CNEmployment code="EF" description="Subject&apos;s Former Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+					<CNEmployment code="E2" description="Subject&apos;s 2nd Former Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+				</CNEmployments>
+				<CNCollections>
+					<CNCollection code="PC" description="Paid Collection">
+						<AssignedDate>2017-06</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>7863</LedgerNumber>
+						<OriginalAmount>000000000600</OriginalAmount>
+						<BalanceAmount>000000001100</BalanceAmount>
+						<DateOfLastPayment>2017-03</DateOfLastPayment>
+						<DatePaid>2017-03</DatePaid>
+					</CNCollection>
+					<CNCollection code="PC" description="Paid Collection">
+						<AssignedDate>2019-04</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>0911</LedgerNumber>
+						<OriginalAmount>000000000030</OriginalAmount>
+						<BalanceAmount>000000000033</BalanceAmount>
+						<DateOfLastPayment>2019-04</DateOfLastPayment>
+						<DatePaid>2019-04</DatePaid>
+					</CNCollection>
+					<CNCollection code="PC" description="Paid Collection">
+						<AssignedDate>2019-04</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>1166</LedgerNumber>
+						<OriginalAmount>000000000040</OriginalAmount>
+						<BalanceAmount>000000000044</BalanceAmount>
+						<DateOfLastPayment>2019-04</DateOfLastPayment>
+						<DatePaid>2019-04</DatePaid>
+					</CNCollection>
+					<CNCollection code="PC" description="Paid Collection">
+						<AssignedDate>2019-04</AssignedDate>
+						<AgencyId>
+							<CustomerNumber>464YA00054</CustomerNumber>
+							<Name>COLLECTRITE ONT</Name>
+						</AgencyId>
+						<LedgerNumber>1163</LedgerNumber>
+						<OriginalAmount>000000000020</OriginalAmount>
+						<BalanceAmount>000000000022</BalanceAmount>
+						<DateOfLastPayment>2019-04</DateOfLastPayment>
+						<DatePaid>2019-04</DatePaid>
+					</CNCollection>
+				</CNCollections>
+				<CNLegalItems>
+					<CNLegalItem code=" FO" description="Foreclosure">
+						<DateFiled>2017-06</DateFiled>
+						<CourtId>
+							<CustomerNumber>483VS00049</CustomerNumber>
+							<Name>PC KINGSVILLE</Name>
+						</CourtId>
+						<CaseNumber>98116</CaseNumber>
+						<Status code="S" description="Satisfied" />
+						<Amount>000000000625</Amount>
+						<Defendant>S</Defendant>
+						<Plaintiff>ASSOCIATES</Plaintiff>
+					</CNLegalItem>
+				</CNLegalItems>
+				<CNGarnishments>
+					<CNGarnishment>
+						<DateFiled>2017-06</DateFiled>
+						<CourtId>
+							<CustomerNumber>473VS00116</CustomerNumber>
+							<Name>PC OTTAWA</Name>
+						</CourtId>
+						<CaseNumber>1119</CaseNumber>
+						<Amount>000000001100</Amount>
+						<Plaintiff>TD BANK</Plaintiff>
+						<Garnishee>JOHN AND BRAD INC</Garnishee>
+					</CNGarnishment>
+				</CNGarnishments>
+				<CNTrades>
+					<CNTrade>
+						<DateReported>2021-05</DateReported>
+						<CreditorId>
+							<CustomerNumber>001ON01224</CustomerNumber>
+							<Name>BQE ROYALE VISA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>341-4363</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>222222222242238</AccountNumber>
+						<PaymentTermAmount>000000000000</PaymentTermAmount>
+						<BalanceAmount>000000000249</BalanceAmount>
+						<DateOpened>2019-01</DateOpened>
+						<DateLastActivityOrPayment>2019-03</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="9" description="Bad debt, collection account or unable to locate" />
+						<Narratives>
+							<Narrative code="CX" description="Account paid" />
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+				</CNTrades>
+				<CNLocalInquiries>
+					<CNLocalInquiry date="2021-04-14">
+						<CustomerId>
+							<CustomerNumber>999HF00025</CustomerNumber>
+							<Name>TEPPERMANS</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>519</AreaCode>
+									<Number>959-9700</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-03-25">
+						<CustomerId>
+							<CustomerNumber>481FA05635</CustomerNumber>
+							<Name>GM FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>753-4000</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-24">
+						<CustomerId>
+							<CustomerNumber>464BB15741</CustomerNumber>
+							<Name>MANULIFE BANK TRUST</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>877</AreaCode>
+									<Number>765-2265</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+				</CNLocalInquiries>
+				<CNForeignInquiries>
+					<CNForeignInquiry date="2021-01-28">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-21">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-13">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-12">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-08">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-01">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+				</CNForeignInquiries>
+				<CNScores>
+					<CNScore productType="SCBS" productId="30129" description="FICO">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>S</ScoreIndicator>
+						<Result>
+							<Value>00452</Value>
+						</Result>
+						<Reasons>
+							<Reason code="00038" description="Serious delinquency and public record or collection filed." />
+							<Reason code="00031" description="Too few accounts with recent payment information." />
+							<Reason code="00046" description="Lack of recent non-LOC revolving account info." />
+							<Reason code="00034" description="Amount owed on delinquent accounts." />
+						</Reasons>
+					</CNScore>
+				</CNScores>
+				<CNFraudWarnings>
+					<CNFraudWarning productId="SF" description="SAFESCAN WARNING">
+						<Messages>
+							<Message priority="000" code="0" description="NO FRAUD INDICATION WAS DETECTED" />
+						</Messages>
+					</CNFraudWarning>
+				</CNFraudWarnings>
+				<CNExtendedTrades>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>001ON01224</CustomerNumber>
+							<Name>BQE ROYALE VISA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>341-4363</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<ETDateReported>2021-05-05</ETDateReported>
+						<ETDateOpened>2019-01-31</ETDateOpened>
+						<DateOfLastActivity>2021-05-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>010</TimesReported>
+						<BalanceAmount>0000000249</BalanceAmount>
+						<PaymentTermAmount>0000000000</PaymentTermAmount>
+						<DateFirstDelinquency>2019-03-02</DateFirstDelinquency>
+						<AccountNumber>222222222242238</AccountNumber>
+						<Narratives>
+							<Narrative code="CX" description="Account paid"/>
+						</Narratives>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-05-05</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="9" description="Bad debt, collection account or unable to locate"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2021-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="9" description="Bad debt, collection account or unable to locate"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-09-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="9" description="Bad debt, collection account or unable to locate"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-05-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-03-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-01-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-12-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-30</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-04-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="9" description="Bad debt, collection account or unable to locate"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+				</CNExtendedTrades>
+				<CNTelephoneNumbers>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>884</AreaCode>
+								<Number>5454845</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-09-26</Date>
+								<SourceIdentifier>464BB15741</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2011-09-26</Date>
+								<SourceIdentifier>464BB15741</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>704</AreaCode>
+								<Number>5565551</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-09-26</Date>
+								<SourceIdentifier>464BB15741</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2011-09-26</Date>
+								<SourceIdentifier>464BB15741</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="MOBILE">
+								<AreaCode>666</AreaCode>
+								<Number>7778888</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-06-08</Date>
+								<SourceIdentifier>Y00</SourceIdentifier>
+								<ModeOfAccess code="Z" description="INTERNAL"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2011-06-08</Date>
+								<SourceIdentifier>Y00</SourceIdentifier>
+								<ModeOfAccess code="Z" description="INTERNAL"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+				</CNTelephoneNumbers>
+			</CNConsumerCreditReport>
+		</CNConsumerCreditReports>
+	</EfxReport>
+</EfxTransmit>

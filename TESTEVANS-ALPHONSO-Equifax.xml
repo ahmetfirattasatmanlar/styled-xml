@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
+		<CNConsumerCreditReports>
+			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
+				<CNHeader>
+					<Request>
+						<Protocol>COND</Protocol>
+						<CustomerReferenceNumber>2495</CustomerReferenceNumber>
+						<CustomerNumber>999FP00200</CustomerNumber>
+						<LanguageIndicator>E</LanguageIndicator>
+						<InquiryType>I</InquiryType>
+						<OutputFormatCode>X</OutputFormatCode>
+					</Request>
+					<CreditFile>
+						<UniqueNumber>0037774502</UniqueNumber>
+						<FileSinceDate>1997-08-26</FileSinceDate>
+						<DateOfLastActivity>2021-06-25</DateOfLastActivity>
+						<DateOfRequest>2021-06-25</DateOfRequest>
+						<FileOwner>
+							<BureauCode>180</BureauCode>
+							<BureauContactInformation>Equifax  inc.</BureauContactInformation>
+						</FileOwner>
+						<HitCode code="4" description="CONSUMER DECLARATION" />
+						<HitStrengthIndicator code="11" description="Regular hit" />
+					</CreditFile>
+					<Subject>
+						<SubjectName>
+							<LastName>TESTEVANS</LastName>
+							<FirstName>ALPHONSO</FirstName>
+						</SubjectName>
+						<SubjectId>
+							<DateOfBirth type="DATE">1977-03-02</DateOfBirth>
+						</SubjectId>
+					</Subject>
+				</CNHeader>
+				<CNAddresses>
+					<CNAddress code="CA" description="Current Address">
+						<DateReported>2016-03</DateReported>
+						<CivicNumber>150</CivicNumber>
+						<StreetName>GRAYDON HALL DR</StreetName>
+						<City code="TOR">TORONTO</City>
+						<Province code="ON" description="ONTARIO" />
+						<PostalCode>M3A3B3</PostalCode>
+						<UpdateSource code="S" description="Sts rptd" />
+					</CNAddress>
+				</CNAddresses>
+				<CNEmployments>
+					<CNEmployment code="ES" description="Subject&apos;sCurrent Employment">
+						<Occupation>1977/03/02</Occupation>
+					</CNEmployment>
+					<CNEmployment code="EF" description="Subject&apos;s Former Employment">
+						<Occupation>1977/03/02</Occupation>
+					</CNEmployment>
+					<CNEmployment code="E2" description="Subject&apos;s 2nd Former Employment">
+						<Occupation>1977/03/02</Occupation>
+					</CNEmployment>
+				</CNEmployments>
+				<CNTrades>
+					<CNTrade>
+						<DateReported>2021-06</DateReported>
+						<CreditorId>
+							<CustomerNumber>481FZ47657</CustomerNumber>
+							<Name>TD AUTO FINANCE CAN</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>832-3321</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>123567890</AccountNumber>
+						<Association code="J" description="Joint" />
+						<HighCreditAmount>000000007000</HighCreditAmount>
+						<PaymentTermAmount>000000000300</PaymentTermAmount>
+						<BalanceAmount>000000001047</BalanceAmount>
+						<MonthsReviewed>04</MonthsReviewed>
+						<DateOpened>2014-05</DateOpened>
+						<DateLastActivityOrPayment>2021-05</DateLastActivityOrPayment>
+						<PortfolioType code="I" description="Installment" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+				</CNTrades>
+				<CNLocalInquiries>
+					<CNLocalInquiry date="2021-06-25">
+						<CustomerId>
+							<CustomerNumber>999FZ02774</CustomerNumber>
+							<Name>FUTURPRENEUR CANADA</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-25">
+						<CustomerId>
+							<CustomerNumber>999ZZ02729</CustomerNumber>
+							<Name>SCI LEASE DEALERS</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>415-6233</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-25">
+						<CustomerId>
+							<CustomerNumber>999FM00708</CustomerNumber>
+							<Name>CANNECT INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>766-2666</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-25">
+						<CustomerId>
+							<CustomerNumber>999FP00200</CustomerNumber>
+							<Name>CLEAR FINANCIAL CORP</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>639-3173</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-24">
+						<CustomerId>
+							<CustomerNumber>999FM00708</CustomerNumber>
+							<Name>CANNECT INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>766-2666</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-24">
+						<CustomerId>
+							<CustomerNumber>999FP00200</CustomerNumber>
+							<Name>CLEAR FINANCIAL CORP</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>639-3173</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999BB02838</CustomerNumber>
+							<Name>SIMPLII VISA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>723-8881</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999FZ01552</CustomerNumber>
+							<Name>FUTURPRENEUR CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>406-2923</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999ZS01116</CustomerNumber>
+							<Name>CRI CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>671-3713</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999ZZ03149</CustomerNumber>
+							<Name>EQUIFAX CANADA TEST</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999FZ02774</CustomerNumber>
+							<Name>FUTURPRENEUR CANADA</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999ZZ02778</CustomerNumber>
+							<Name>WSA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>902</AreaCode>
+									<Number>628-6229</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999FA00438</CustomerNumber>
+							<Name>VFS CANADA INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>726-5500</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999FM00708</CustomerNumber>
+							<Name>CANNECT INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>766-2666</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999AU00113</CustomerNumber>
+							<Name>CREDITMAXX FINANCING</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>306</AreaCode>
+									<Number>931-6190</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-23">
+						<CustomerId>
+							<CustomerNumber>999VQ00029</CustomerNumber>
+							<Name>AML BC LOTTO PLAYNOW</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>276-6447</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-22">
+						<CustomerId>
+							<CustomerNumber>999FZ01552</CustomerNumber>
+							<Name>FUTURPRENEUR CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>406-2923</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-22">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-21">
+						<CustomerId>
+							<CustomerNumber>999UT01082</CustomerNumber>
+							<Name>FREEDOM MOBILE INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>572-0108</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-21">
+						<CustomerId>
+							<CustomerNumber>999FZ01552</CustomerNumber>
+							<Name>FUTURPRENEUR CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>406-2923</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-21">
+						<CustomerId>
+							<CustomerNumber>999FZ02774</CustomerNumber>
+							<Name>FUTURPRENEUR CANADA</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-21">
+						<CustomerId>
+							<CustomerNumber>999BB00428</CustomerNumber>
+							<Name>ROYAL BANK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>348-5250</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-19">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-18">
+						<CustomerId>
+							<CustomerNumber>999FZ01560</CustomerNumber>
+							<Name>BORROWELL INC.</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>417-9645</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-18">
+						<CustomerId>
+							<CustomerNumber>999FS00270</CustomerNumber>
+							<Name>UPLIFT CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>888-8888</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-18">
+						<CustomerId>
+							<CustomerNumber>001FC48837</CustomerNumber>
+							<Name>C P FED DESJ</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>281-7000</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-16">
+						<CustomerId>
+							<CustomerNumber>999FF00128</CustomerNumber>
+							<Name>LENDNOVAIN</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>647</AreaCode>
+									<Number>970-5318</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-16">
+						<CustomerId>
+							<CustomerNumber>999FZ01552</CustomerNumber>
+							<Name>FUTURPRENEUR CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>406-2923</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-16">
+						<CustomerId>
+							<CustomerNumber>999FF00110</CustomerNumber>
+							<Name>JOHN DEERE FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>319-9100</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-15">
+						<CustomerId>
+							<CustomerNumber>999RZ00111</CustomerNumber>
+							<Name>LCB SERVICES LTD</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>576-3017</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-14">
+						<CustomerId>
+							<CustomerNumber>999FZ00158</CustomerNumber>
+							<Name>COMMUNITY LEND INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>646-2177</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-14">
+						<CustomerId>
+							<CustomerNumber>999RZ00111</CustomerNumber>
+							<Name>LCB SERVICES LTD</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>576-3017</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-12">
+						<CustomerId>
+							<CustomerNumber>999FM00815</CustomerNumber>
+							<Name>FINCH FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>403</AreaCode>
+									<Number>201-4911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-11">
+						<CustomerId>
+							<CustomerNumber>999BB01681</CustomerNumber>
+							<Name>CAPONE BANK AML</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-10">
+						<CustomerId>
+							<CustomerNumber>999BB01681</CustomerNumber>
+							<Name>CAPONE BANK AML</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-10">
+						<CustomerId>
+							<CustomerNumber>999FM00815</CustomerNumber>
+							<Name>FINCH FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>403</AreaCode>
+									<Number>201-4911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-09">
+						<CustomerId>
+							<CustomerNumber>999FZ02709</CustomerNumber>
+							<Name>RITCHIE BROS. FINANC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>778</AreaCode>
+									<Number>331-5663</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-09">
+						<CustomerId>
+							<CustomerNumber>999FZ00158</CustomerNumber>
+							<Name>COMMUNITY LEND INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>646-2177</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-09">
+						<CustomerId>
+							<CustomerNumber>999ZZ00186</CustomerNumber>
+							<Name>SELIENT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>234-0098</Number>
+									<Extension>213</Extension>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-08">
+						<CustomerId>
+							<CustomerNumber>999FS00270</CustomerNumber>
+							<Name>UPLIFT CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>888-8888</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-08">
+						<CustomerId>
+							<CustomerNumber>999FZ02709</CustomerNumber>
+							<Name>RITCHIE BROS. FINANC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>778</AreaCode>
+									<Number>331-5663</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-08">
+						<CustomerId>
+							<CustomerNumber>999ZS01298</CustomerNumber>
+							<Name>NEXXUSTRADE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>649-3000</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-07">
+						<CustomerId>
+							<CustomerNumber>001ZZ21015</CustomerNumber>
+							<Name>QA TEST BEVERLEYHIND</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>493-2376</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-07">
+						<CustomerId>
+							<CustomerNumber>999ZZ00186</CustomerNumber>
+							<Name>SELIENT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>234-0098</Number>
+									<Extension>213</Extension>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-07">
+						<CustomerId>
+							<CustomerNumber>999FZ02709</CustomerNumber>
+							<Name>RITCHIE BROS. FINANC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>778</AreaCode>
+									<Number>331-5663</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-04">
+						<CustomerId>
+							<CustomerNumber>999FM00815</CustomerNumber>
+							<Name>FINCH FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>403</AreaCode>
+									<Number>201-4911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-04">
+						<CustomerId>
+							<CustomerNumber>999FZ00158</CustomerNumber>
+							<Name>COMMUNITY LEND INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>646-2177</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-03">
+						<CustomerId>
+							<CustomerNumber>999ZS01033</CustomerNumber>
+							<Name>TRULIOO INFORMATION</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>773-0179</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-03">
+						<CustomerId>
+							<CustomerNumber>999ZZ03107</CustomerNumber>
+							<Name>EQUIFAX CANADA TEST</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-03">
+						<CustomerId>
+							<CustomerNumber>999ZZ03115</CustomerNumber>
+							<Name>EQUIFAX CANADA TEST</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-03">
+						<CustomerId>
+							<CustomerNumber>999FZ02675</CustomerNumber>
+							<Name>DENTAL GRANTS PROGRA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>450</AreaCode>
+									<Number>698-3203</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-02">
+						<CustomerId>
+							<CustomerNumber>999ZZ03099</CustomerNumber>
+							<Name>EQUIFAX CANADA TEST</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-02">
+						<CustomerId>
+							<CustomerNumber>001ZZ21015</CustomerNumber>
+							<Name>QA TEST BEVERLEYHIND</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>493-2376</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-02">
+						<CustomerId>
+							<CustomerNumber>999ZS01033</CustomerNumber>
+							<Name>TRULIOO INFORMATION</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>773-0179</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-02">
+						<CustomerId>
+							<CustomerNumber>999FM00815</CustomerNumber>
+							<Name>FINCH FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>403</AreaCode>
+									<Number>201-4911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999WG00036</CustomerNumber>
+							<Name>FOOD INDUSTRY CREDIT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>385-3635</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999FZ02030</CustomerNumber>
+							<Name>DYNAMIC CAPITAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>250</AreaCode>
+									<Number>864-4728</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999ZZ01390</CustomerNumber>
+							<Name>LENDESK TECHNOLOGIES</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>853-5979</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999FM00773</CustomerNumber>
+							<Name>TMGTHEMORT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>707-6311</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999RA00051</CustomerNumber>
+							<Name>CORPIQ</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>493-2498</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999ZZ03099</CustomerNumber>
+							<Name>EQUIFAX CANADA TEST</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999BB01681</CustomerNumber>
+							<Name>CAPONE BANK AML</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999FM00815</CustomerNumber>
+							<Name>FINCH FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>403</AreaCode>
+									<Number>201-4911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999FM00815</CustomerNumber>
+							<Name>FINCH FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>403</AreaCode>
+									<Number>201-4911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999ZZ01051</CustomerNumber>
+							<Name>DOXIM INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>475-9876</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999FZ02675</CustomerNumber>
+							<Name>DENTAL GRANTS PROGRA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>450</AreaCode>
+									<Number>698-3203</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999BB00923</CustomerNumber>
+							<Name>BUS DEVELOPMENT BK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>496-1173</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999ZZ01192</CustomerNumber>
+							<Name>AVS SYSTEMS INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>250</AreaCode>
+									<Number>558-0726</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999FZ02550</CustomerNumber>
+							<Name>VALIANT FINANCIAL SE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>833</AreaCode>
+									<Number>635-3273</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999FZ02030</CustomerNumber>
+							<Name>DYNAMIC CAPITAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>250</AreaCode>
+									<Number>864-4728</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999FM00815</CustomerNumber>
+							<Name>FINCH FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>403</AreaCode>
+									<Number>201-4911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999BB00923</CustomerNumber>
+							<Name>BUS DEVELOPMENT BK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>496-1173</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>001FC48837</CustomerNumber>
+							<Name>C P FED DESJ</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>281-7000</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999AU00089</CustomerNumber>
+							<Name>RENFI CAPITAL INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>721-8783</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999ZS01033</CustomerNumber>
+							<Name>TRULIOO INFORMATION</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>773-0179</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999ZZ01390</CustomerNumber>
+							<Name>LENDESK TECHNOLOGIES</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>853-5979</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999FZ02030</CustomerNumber>
+							<Name>DYNAMIC CAPITAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>250</AreaCode>
+									<Number>864-4728</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-29">
+						<CustomerId>
+							<CustomerNumber>999BB00923</CustomerNumber>
+							<Name>BUS DEVELOPMENT BK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>496-1173</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-29">
+						<CustomerId>
+							<CustomerNumber>999AU00089</CustomerNumber>
+							<Name>RENFI CAPITAL INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>721-8783</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-29">
+						<CustomerId>
+							<CustomerNumber>999FM00773</CustomerNumber>
+							<Name>TMGTHEMORT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>707-6311</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-29">
+						<CustomerId>
+							<CustomerNumber>999ZS01264</CustomerNumber>
+							<Name>ROGERSCOMM</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>935-7689</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999BB01681</CustomerNumber>
+							<Name>CAPONE BANK AML</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999BB00923</CustomerNumber>
+							<Name>BUS DEVELOPMENT BK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>496-1173</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999BB01681</CustomerNumber>
+							<Name>CAPONE BANK AML</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999FM00773</CustomerNumber>
+							<Name>TMGTHEMORT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>707-6311</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999FX00523</CustomerNumber>
+							<Name>JUSTWEALTH</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>866</AreaCode>
+									<Number>407-5878</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999ZZ02836</CustomerNumber>
+							<Name>NEWGEN SOFTWARE TECH</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>361-2824</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999FZ02030</CustomerNumber>
+							<Name>DYNAMIC CAPITAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>250</AreaCode>
+									<Number>864-4728</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999UZ00013</CustomerNumber>
+							<Name>VIDEOTRON INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>464-3410</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>001ZZ21015</CustomerNumber>
+							<Name>QA TEST BEVERLEYHIND</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>493-2376</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999FZ02709</CustomerNumber>
+							<Name>RITCHIE BROS. FINANC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>778</AreaCode>
+									<Number>331-5663</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999BB01681</CustomerNumber>
+							<Name>CAPONE BANK AML</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999FM00815</CustomerNumber>
+							<Name>FINCH FINANCIAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>403</AreaCode>
+									<Number>201-4911</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999BB01681</CustomerNumber>
+							<Name>CAPONE BANK AML</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999FZ02659</CustomerNumber>
+							<Name>PIVOTAL CAPITAL CORP</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>643-3034</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999BB00923</CustomerNumber>
+							<Name>BUS DEVELOPMENT BK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>496-1173</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999BB01632</CustomerNumber>
+							<Name>HSBC BANK AML</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>778</AreaCode>
+									<Number>452-8315</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999FA00438</CustomerNumber>
+							<Name>VFS CANADA INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>726-5500</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999FZ02030</CustomerNumber>
+							<Name>DYNAMIC CAPITAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>250</AreaCode>
+									<Number>864-4728</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+				</CNLocalInquiries>
+				<CNConsumerStatements>
+					<CNConsumerStatement>
+						<DateReported>2021-04</DateReported>
+						<DateToBePurged>2027-07</DateToBePurged>
+						<Statement>**** WARNING ****ALERT TO VERIFY CONSUMER&apos;S IDENTITY - PLEASE CONTACT CONSUMER T (000) - 000-0000 BEFORE EXTENDING CREDIT</Statement>
+					</CNConsumerStatement>
+				</CNConsumerStatements>
+				<CNScores>
+					<CNScore productType="SCBS" productId="30129" description="FICO">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>S</ScoreIndicator>
+						<Result>
+							<Value>00686</Value>
+						</Result>
+						<Reasons>
+							<Reason code="00031" description="Too few accounts with recent payment information." />
+							<Reason code="00014" description="Length of time accounts have been established." />
+							<Reason code="00046" description="Lack of recent non-LOC revolving account info." />
+							<Reason code="00015" description="LacK of recent banK/national revolving information." />
+						</Reasons>
+					</CNScore>
+				</CNScores>
+				<CNFraudWarnings>
+					<CNFraudWarning productId="SF" description="SAFESCAN WARNING">
+						<Messages>
+							<Message priority="000" code="0" description="NO FRAUD INDICATION WAS DETECTED" />
+						</Messages>
+					</CNFraudWarning>
+				</CNFraudWarnings>
+				<CNExtendedTrades>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>481FZ47657</CustomerNumber>
+							<Name>TD AUTO FINANCE CAN</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>832-3321</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<ETDateReported>2021-06-01</ETDateReported>
+						<ETDateOpened>2014-05-02</ETDateOpened>
+						<DateOfLastActivity>2021-05-13</DateOfLastActivity>
+						<Association code="J" description="Joint"/>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>004</TimesReported>
+						<HighCreditAmount>0000007000</HighCreditAmount>
+						<BalanceAmount>0000001047</BalanceAmount>
+						<PaymentTermAmount>0000000300</PaymentTermAmount>
+						<AccountNumber>123567890</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-06-01</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2021-05-19</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2021-05-01</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2016-05-01</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+				</CNExtendedTrades>
+				<CNTelephoneNumbers>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="BUSINESS/WORK">
+								<AreaCode>905</AreaCode>
+								<Number>8774848</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2017-07-19</Date>
+								<SourceIdentifier>999FC00139</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2017-07-19</Date>
+								<SourceIdentifier>999FC00139</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>905</AreaCode>
+								<Number>5974444</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2017-07-19</Date>
+								<SourceIdentifier>999FC00139</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2017-07-19</Date>
+								<SourceIdentifier>999FC00139</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="BUSINESS/WORK">
+								<AreaCode>416</AreaCode>
+								<Number>7894563</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2017-07-19</Date>
+								<SourceIdentifier>999FC00139</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2017-07-19</Date>
+								<SourceIdentifier>999FC00139</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+				</CNTelephoneNumbers>
+			</CNConsumerCreditReport>
+		</CNConsumerCreditReports>
+	</EfxReport>
+</EfxTransmit>

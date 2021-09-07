@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
+		<CNConsumerCreditReports>
+			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
+				<CNHeader>
+					<Request>
+						<Protocol>COND</Protocol>
+						<CustomerReferenceNumber>2495</CustomerReferenceNumber>
+						<CustomerNumber>999FP00200</CustomerNumber>
+						<LanguageIndicator>E</LanguageIndicator>
+						<InquiryType>I</InquiryType>
+						<OutputFormatCode>X</OutputFormatCode>
+					</Request>
+					<CreditFile>
+						<UniqueNumber>0000532010</UniqueNumber>
+						<FileSinceDate>1998-09-06</FileSinceDate>
+						<DateOfLastActivity>2021-06-19</DateOfLastActivity>
+						<DateOfRequest>2021-07-05</DateOfRequest>
+						<FileOwner>
+							<BureauCode>072</BureauCode>
+							<BureauContactInformation>Equifax  inc.</BureauContactInformation>
+						</FileOwner>
+						<HitCode code="1" description="HIT" />
+						<HitStrengthIndicator code="11" description="Regular hit" />
+					</CreditFile>
+					<Subject>
+						<SubjectName>
+							<LastName>ROBERTS</LastName>
+							<FirstName>MARY</FirstName>
+						</SubjectName>
+						<SubjectId>
+							<DateOfBirth type="DATE">1966-03-29</DateOfBirth>
+						</SubjectId>
+					</Subject>
+				</CNHeader>
+				<CNAddresses>
+					<CNAddress code="CA" description="Current Address">
+						<CivicNumber>311</CivicNumber>
+						<StreetName>AURORA DR SE</StreetName>
+						<City code="HIRI">HIGH RIVER</City>
+						<Province code="AB" description="ALBERTA" />
+						<PostalCode>T1V1J5</PostalCode>
+					</CNAddress>
+				</CNAddresses>
+				<CNEmployments>
+					<CNEmployment code="ES" description="Subject&apos;sCurrent Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+					<CNEmployment code="EF" description="Subject&apos;s Former Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+					<CNEmployment code="E2" description="Subject&apos;s 2nd Former Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+				</CNEmployments>
+				<CNTrades>
+					<CNTrade>
+						<DateReported>2021-04</DateReported>
+						<CreditorId>
+							<CustomerNumber>650HT00280</CustomerNumber>
+							<Name>THE ASSOCIATES</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>660-4835</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>121212110000162</AccountNumber>
+						<HighCreditAmount>000000001900</HighCreditAmount>
+						<BalanceAmount>000000001409</BalanceAmount>
+						<MonthsReviewed>13</MonthsReviewed>
+						<DateOpened>2017-09</DateOpened>
+						<DateLastActivityOrPayment>2021-03</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2021-04</DateReported>
+						<CreditorId>
+							<CustomerNumber>001BB15097</CustomerNumber>
+							<Name>BQE ROYALE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>494-7977</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>111111111111541</AccountNumber>
+						<HighCreditAmount>000000022450</HighCreditAmount>
+						<BalanceAmount>000000003258</BalanceAmount>
+						<MonthsReviewed>12</MonthsReviewed>
+						<DateOpened>2012-01</DateOpened>
+						<DateLastActivityOrPayment>2021-03</DateLastActivityOrPayment>
+						<PortfolioType code="I" description="Installment" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2021-04</DateReported>
+						<CreditorId>
+							<CustomerNumber>650ON00028</CustomerNumber>
+							<Name>ROYAL BANK VISA</Name>
+						</CreditorId>
+						<AccountNumber>121212110000163</AccountNumber>
+						<HighCreditAmount>000000002500</HighCreditAmount>
+						<BalanceAmount>000000000293</BalanceAmount>
+						<MonthsReviewed>15</MonthsReviewed>
+						<DateOpened>2006-04</DateOpened>
+						<DateLastActivityOrPayment>2021-03</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2021-04</DateReported>
+						<CreditorId>
+							<CustomerNumber>650HF00022</CustomerNumber>
+							<Name>THE BRICK WAREHOUSE</Name>
+						</CreditorId>
+						<AccountNumber>121212110000161</AccountNumber>
+						<HighCreditAmount>000000000500</HighCreditAmount>
+						<BalanceAmount>000000000248</BalanceAmount>
+						<MonthsReviewed>10</MonthsReviewed>
+						<DateOpened>2017-10</DateOpened>
+						<DateLastActivityOrPayment>2021-03</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+				</CNTrades>
+				<CNLocalInquiries>
+					<CNLocalInquiry date="2021-06-19">
+						<CustomerId>
+							<CustomerNumber>999FC01665</CustomerNumber>
+							<Name>COAST CAP SAVINGS CU</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>517-7000</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-19">
+						<CustomerId>
+							<CustomerNumber>999FD01681</CustomerNumber>
+							<Name>COAST CAP SAVINGS CU</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>517-7000</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-19">
+						<CustomerId>
+							<CustomerNumber>999FC01640</CustomerNumber>
+							<Name>COAST CAP SAVINGS CU</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>250</AreaCode>
+									<Number>483-7000</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-04-29">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-04-22">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-04-10">
+						<CustomerId>
+							<CustomerNumber>999DC00258</CustomerNumber>
+							<Name>PACIFIC WESTERN TR</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>519</AreaCode>
+									<Number>645-1919</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-03-11">
+						<CustomerId>
+							<CustomerNumber>999FZ00398</CustomerNumber>
+							<Name>INVESTORS GROUP</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>204</AreaCode>
+									<Number>956-8562</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-03-06">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-03-05">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-26">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-21">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-20">
+						<CustomerId>
+							<CustomerNumber>481BB72394</CustomerNumber>
+							<Name>CIBC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-13">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-10">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-07">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-05">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-01-23">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-01-08">
+						<CustomerId>
+							<CustomerNumber>464BB15741</CustomerNumber>
+							<Name>MANULIFE BANK TRUST</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>877</AreaCode>
+									<Number>765-2265</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-25">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-24">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-18">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-17">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-16">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-16">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-13">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-12">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-12">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-11">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-11">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-10">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-09">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-05">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-05">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-04">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-03">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-12-02">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-26">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-26">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-25">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-25">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-22">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-20">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-19">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-18">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-15">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-13">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-08">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-07">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-11-06">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-10-09">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-10-08">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-10-01">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-09-30">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-09-25">
+						<CustomerId>
+							<CustomerNumber>999ON00333</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>681-4118</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-09-17">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-09-12">
+						<CustomerId>
+							<CustomerNumber>999OX00010</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>387-9986</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-01-31">
+						<CustomerId>
+							<CustomerNumber>481BB00816</CustomerNumber>
+							<Name>CIBC FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>265-7807</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-01-29">
+						<CustomerId>
+							<CustomerNumber>481BB00816</CustomerNumber>
+							<Name>CIBC FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>265-7807</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-01-27">
+						<CustomerId>
+							<CustomerNumber>481BB00816</CustomerNumber>
+							<Name>CIBC FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>265-7807</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-01-23">
+						<CustomerId>
+							<CustomerNumber>481BB00816</CustomerNumber>
+							<Name>CIBC FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>265-7807</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-01-22">
+						<CustomerId>
+							<CustomerNumber>481BB00816</CustomerNumber>
+							<Name>CIBC FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>265-7807</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-01-21">
+						<CustomerId>
+							<CustomerNumber>481BB00816</CustomerNumber>
+							<Name>CIBC FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>265-7807</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2020-01-20">
+						<CustomerId>
+							<CustomerNumber>481BB00816</CustomerNumber>
+							<Name>CIBC FINANCE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>265-7807</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+				</CNLocalInquiries>
+				<CNForeignInquiries>
+					<CNForeignInquiry date="2021-01-28">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-21">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-13">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-12">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-08">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+					<CNForeignInquiry date="2021-01-01">
+						<CityNameOrInquiryNumber>INTLUSA 999DC01892</CityNameOrInquiryNumber>
+						<InquiryProvince>KOHLS</InquiryProvince>
+					</CNForeignInquiry>
+				</CNForeignInquiries>
+				<CNScores>
+					<CNScore productType="SCBS" productId="30129" description="FICO">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>S</ScoreIndicator>
+						<Result>
+							<Value>00740</Value>
+						</Result>
+						<Reasons>
+							<Reason code="00010" description="Balance to limit on bank/national,LOC or other revolving acct too high" />
+							<Reason code="00031" description="Too few accounts with recent payment information." />
+							<Reason code="00056" description="Amount owed on retail accounts." />
+							<Reason code="00008" description="Too many inquiries last 12 months." />
+						</Reasons>
+					</CNScore>
+				</CNScores>
+				<CNFraudWarnings>
+					<CNFraudWarning productId="SF" description="SAFESCAN WARNING">
+						<Messages>
+							<Message priority="000" code="0" description="NO FRAUD INDICATION WAS DETECTED" />
+						</Messages>
+					</CNFraudWarning>
+				</CNFraudWarnings>
+				<CNExtendedTrades>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650HT00280</CustomerNumber>
+							<Name>THE ASSOCIATES</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>660-4835</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<ETDateReported>2021-04-01</ETDateReported>
+						<ETDateOpened>2017-09-30</ETDateOpened>
+						<DateOfLastActivity>2021-03-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>013</TimesReported>
+						<HighCreditAmount>0000001900</HighCreditAmount>
+						<BalanceAmount>0000001409</BalanceAmount>
+						<AccountNumber>121212110000162</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-09-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-07-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-05-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-03-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-01-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-12-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-30</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-10-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-03</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-06-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>001BB15097</CustomerNumber>
+							<Name>BQE ROYALE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>494-7977</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<ETDateReported>2021-04-01</ETDateReported>
+						<ETDateOpened>2012-01-31</ETDateOpened>
+						<DateOfLastActivity>2021-03-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>012</TimesReported>
+						<HighCreditAmount>0000022450</HighCreditAmount>
+						<BalanceAmount>0000003258</BalanceAmount>
+						<AccountNumber>111111111111541</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-04-01</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-09-29</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-07-02</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-01-31</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-12-31</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-30</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-09</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-09-30</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-08-31</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-31</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-03</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-06-02</ETDateReported>
+								<PortfolioType code="I" description="Installment"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650ON00028</CustomerNumber>
+							<Name>ROYAL BANK VISA</Name>
+						</CreditorId>
+						<ETDateReported>2021-04-01</ETDateReported>
+						<ETDateOpened>2006-04-02</ETDateOpened>
+						<DateOfLastActivity>2021-03-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>015</TimesReported>
+						<HighCreditAmount>0000002500</HighCreditAmount>
+						<BalanceAmount>0000000293</BalanceAmount>
+						<AccountNumber>4121212110000163</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-09-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-07-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-05-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-03-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-01-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-12-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-30</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-09</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-09-30</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-08-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-03</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-06-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650HF00022</CustomerNumber>
+							<Name>THE BRICK WAREHOUSE</Name>
+						</CreditorId>
+						<ETDateReported>2021-04-01</ETDateReported>
+						<ETDateOpened>2017-10-31</ETDateOpened>
+						<DateOfLastActivity>2021-03-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>010</TimesReported>
+						<HighCreditAmount>0000000500</HighCreditAmount>
+						<BalanceAmount>0000000248</BalanceAmount>
+						<AccountNumber>121212110000161</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-09-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-07-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-01-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-12-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-30</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-10-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-03</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-06-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+				</CNExtendedTrades>
+				<CNTelephoneNumbers>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>514</AreaCode>
+								<Number>5291282</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2020-06-19</Date>
+								<SourceIdentifier>999FC01681</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2020-06-19</Date>
+								<SourceIdentifier>999FC01681</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>416</AreaCode>
+								<Number>7569988</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-09-23</Date>
+								<SourceIdentifier>999ON00333</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2011-11-29</Date>
+								<SourceIdentifier>999ON00333</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>406</AreaCode>
+								<Number>5567512</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-11-10</Date>
+								<SourceIdentifier>999DC00258</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2011-11-10</Date>
+								<SourceIdentifier>999DC00258</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+				</CNTelephoneNumbers>
+			</CNConsumerCreditReport>
+		</CNConsumerCreditReports>
+	</EfxReport>
+</EfxTransmit>

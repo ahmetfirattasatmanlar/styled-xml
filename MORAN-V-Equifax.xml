@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
+		<CNConsumerCreditReports>
+			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
+				<CNHeader>
+					<Request>
+						<Protocol>COND</Protocol>
+						<CustomerReferenceNumber>2495</CustomerReferenceNumber>
+						<CustomerNumber>999FP00200</CustomerNumber>
+						<LanguageIndicator>E</LanguageIndicator>
+						<InquiryType>I</InquiryType>
+						<OutputFormatCode>X</OutputFormatCode>
+					</Request>
+					<CreditFile>
+						<UniqueNumber>0023609175</UniqueNumber>
+						<FileSinceDate>1988-03-01</FileSinceDate>
+						<DateOfLastActivity>2021-05-05</DateOfLastActivity>
+						<DateOfRequest>2021-07-05</DateOfRequest>
+						<FileOwner>
+							<BureauCode>180</BureauCode>
+							<BureauContactInformation>Equifax  inc.</BureauContactInformation>
+						</FileOwner>
+						<HitCode code="1" description="HIT" />
+						<HitStrengthIndicator code="11" description="Regular hit" />
+					</CreditFile>
+					<Subject>
+						<SubjectName>
+							<LastName>MORAN</LastName>
+							<FirstName>V</FirstName>
+							<MiddleName>TEST</MiddleName>
+						</SubjectName>
+						<SubjectId>
+							<DateOfBirth type="DATE">1959-03-01</DateOfBirth>
+						</SubjectId>
+					</Subject>
+				</CNHeader>
+				<CNAddresses>
+					<CNAddress code="CA" description="Current Address">
+						<DateReported>2018-01</DateReported>
+						<CivicNumber>128</CivicNumber>
+						<StreetName>HANNFORD ST</StreetName>
+						<City code="TOR">TORONTO</City>
+						<Province code="ON" description="ONTARIO" />
+						<PostalCode>M4E3H1</PostalCode>
+						<UpdateSource code="C" description="Crt rptd" />
+					</CNAddress>
+				</CNAddresses>
+				<CNEmployments>
+					<CNEmployment code="ES" description="Subject&apos;sCurrent Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+					<CNEmployment code="EF" description="Subject&apos;s Former Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+					<CNEmployment code="E2" description="Subject&apos;s 2nd Former Employment">
+						<Occupation>ADS TEST FILE</Occupation>
+					</CNEmployment>
+				</CNEmployments>
+				<CNTrades>
+					<CNTrade>
+						<DateReported>2021-04</DateReported>
+						<CreditorId>
+							<CustomerNumber>650ON00598</CustomerNumber>
+							<Name>CIBC CARD SERVICES</Name>
+						</CreditorId>
+						<AccountNumber>0000010743</AccountNumber>
+						<HighCreditAmount>000000003000</HighCreditAmount>
+						<BalanceAmount>000000000000</BalanceAmount>
+						<MonthsReviewed>12</MonthsReviewed>
+						<DateOpened>2000-12</DateOpened>
+						<DateLastActivityOrPayment>2021-03</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2021-04</DateReported>
+						<CreditorId>
+							<CustomerNumber>650ON00598</CustomerNumber>
+							<Name>CIBC CARD SERVICES</Name>
+						</CreditorId>
+						<AccountNumber>0000110071</AccountNumber>
+						<HighCreditAmount>000000003000</HighCreditAmount>
+						<BalanceAmount>000000000000</BalanceAmount>
+						<MonthsReviewed>15</MonthsReviewed>
+						<DateOpened>2001-01</DateOpened>
+						<DateLastActivityOrPayment>2021-03</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="1" description="Paid as agreed and up to date" />
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+						</Narratives>
+					</CNTrade>
+				</CNTrades>
+				<CNLocalInquiries>
+					<CNLocalInquiry date="2021-04-10">
+						<CustomerId>
+							<CustomerNumber>999HF00025</CustomerNumber>
+							<Name>TEPPERMANS</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>519</AreaCode>
+									<Number>959-9700</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-02-20">
+						<CustomerId>
+							<CustomerNumber>481BB72394</CustomerNumber>
+							<Name>CIBC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+				</CNLocalInquiries>
+				<CNScores>
+					<CNScore productType="SCBS" productId="30129" description="FICO">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>S</ScoreIndicator>
+						<Result>
+							<Value>00833</Value>
+						</Result>
+						<Reasons>
+							<Reason code="00063" description="No recent non-LOC bank/national revolving balances." />
+							<Reason code="00037" description="Lack of recent LOC revolving account information." />
+							<Reason code="00008" description="Too many inquiries last 12 months." />
+							<Reason code="00049" description="Time since account activity is too long." />
+						</Reasons>
+					</CNScore>
+				</CNScores>
+				<CNFraudWarnings>
+					<CNFraudWarning productId="SF" description="SAFESCAN WARNING">
+						<Messages>
+							<Message priority="000" code="0" description="NO FRAUD INDICATION WAS DETECTED" />
+						</Messages>
+					</CNFraudWarning>
+				</CNFraudWarnings>
+				<CNExtendedTrades>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650ON00598</CustomerNumber>
+							<Name>CIBC CARD SERVICES</Name>
+						</CreditorId>
+						<ETDateReported>2021-04-01</ETDateReported>
+						<ETDateOpened>2000-12-30</ETDateOpened>
+						<DateOfLastActivity>2021-03-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>012</TimesReported>
+						<HighCreditAmount>0000003000</HighCreditAmount>
+						<BalanceAmount>0000000000</BalanceAmount>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-09-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-07-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-05-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-03-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-01-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-12-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-30</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-03</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-06-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650ON00598</CustomerNumber>
+							<Name>CIBC CARD SERVICES</Name>
+						</CreditorId>
+						<ETDateReported>2021-04-01</ETDateReported>
+						<ETDateOpened>2001-01-30</ETDateOpened>
+						<DateOfLastActivity>2021-03-01</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">000</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>015</TimesReported>
+						<HighCreditAmount>0000003000</HighCreditAmount>
+						<BalanceAmount>0000000000</BalanceAmount>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-09-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-07-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-05-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-04-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-03-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-01-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-12-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-30</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-11-09</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-09-30</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-08-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-31</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-07-03</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-06-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+				</CNExtendedTrades>
+				<CNTelephoneNumbers>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>647</AreaCode>
+								<Number>1211381</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-09-22</Date>
+								<SourceIdentifier>481BB72394</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2011-09-22</Date>
+								<SourceIdentifier>481BB72394</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="MOBILE">
+								<AreaCode>666</AreaCode>
+								<Number>7778888</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-04-12</Date>
+								<SourceIdentifier>Y00</SourceIdentifier>
+								<ModeOfAccess code="Z" description="INTERNAL"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2011-04-12</Date>
+								<SourceIdentifier>Y00</SourceIdentifier>
+								<ModeOfAccess code="Z" description="INTERNAL"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="BUSINESS/WORK">
+								<AreaCode>333</AreaCode>
+								<Number>4445555</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-04-12</Date>
+								<SourceIdentifier>Y00</SourceIdentifier>
+								<ModeOfAccess code="Z" description="INTERNAL"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2011-04-12</Date>
+								<SourceIdentifier>Y00</SourceIdentifier>
+								<ModeOfAccess code="Z" description="INTERNAL"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+				</CNTelephoneNumbers>
+			</CNConsumerCreditReport>
+		</CNConsumerCreditReports>
+	</EfxReport>
+</EfxTransmit>

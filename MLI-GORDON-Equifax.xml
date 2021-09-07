@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="style.xsl" ?>
 <EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
 	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
@@ -1317,21 +1317,6 @@
 					</CNForeignInquiry>
 				</CNForeignInquiries>
 				<CNScores>
-					<CNScore productType="SCBS" productId="30129" description="FICO">
-						<VersionNumber>010</VersionNumber>
-						<ModelId>A</ModelId>
-						<ScoreNumber>1</ScoreNumber>
-						<ScoreIndicator>S</ScoreIndicator>
-						<Result>
-							<Value>00686</Value>
-						</Result>
-						<Reasons>
-							<Reason code="00010" description="Balance to limit on bank/national,LOC or other revolving acct too high" />
-							<Reason code="00031" description="Too few accounts with recent payment information." />
-							<Reason code="00008" description="Too many inquiries last 12 months." />
-							<Reason code="00037" description="Lack of recent LOC revolving account information." />
-						</Reasons>
-					</CNScore>
 					<CNScore productType="SCBS" productId="30129" description="FICO">
 						<VersionNumber>010</VersionNumber>
 						<ModelId>A</ModelId>

@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<EfxTransmit xmlns="http://www.equifax.ca/XMLSchemas/EfxToCust" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.equifax.ca/XMLSchemas/EfxToCust http://www.equifax.ca/XMLSchemas/UAT/CNEfxTransmitToCust.xsd" >
+	<EfxReport requestNumber="1" reportId="CNCONSUMERCREDITFILE">
+		<CNConsumerCreditReports>
+			<CNConsumerCreditReport subjectType="SUBJECT" multipleNumber="1">
+				<CNHeader>
+					<Request>
+						<Protocol>COND</Protocol>
+						<CustomerReferenceNumber>2495</CustomerReferenceNumber>
+						<CustomerNumber>999FP00200</CustomerNumber>
+						<LanguageIndicator>E</LanguageIndicator>
+						<InquiryType>I</InquiryType>
+						<OutputFormatCode>X</OutputFormatCode>
+					</Request>
+					<CreditFile>
+						<UniqueNumber>0038884730</UniqueNumber>
+						<FileSinceDate>2011-03-24</FileSinceDate>
+						<DateOfLastActivity>2021-05-10</DateOfLastActivity>
+						<DateOfRequest>2021-06-30</DateOfRequest>
+						<FileOwner>
+							<BureauCode>180</BureauCode>
+							<BureauContactInformation>Equifax  inc.</BureauContactInformation>
+						</FileOwner>
+						<HitCode code="1" description="HIT" />
+						<HitStrengthIndicator code="11" description="Regular hit" />
+					</CreditFile>
+					<Subject>
+						<SubjectName>
+							<LastName>IMPORTANT</LastName>
+							<FirstName>VERY</FirstName>
+							<MiddleName>EDWARD</MiddleName>
+						</SubjectName>
+						<SubjectId>
+							<DateOfBirth type="DATE">1988-10-10</DateOfBirth>
+						</SubjectId>
+					</Subject>
+				</CNHeader>
+				<CNAddresses>
+					<CNAddress code="CA" description="Current Address">
+						<DateReported>2020-07</DateReported>
+						<CivicNumber>1111</CivicNumber>
+						<StreetName>BRIDAL AVE</StreetName>
+						<City code="TOR">TORONTO</City>
+						<Province code="ON" description="ONTARIO" />
+						<PostalCode>M0C3G5</PostalCode>
+						<UpdateSource code="C" description="Crt rptd" />
+					</CNAddress>
+					<CNAddress code="FA" description="Former Address">
+						<DateReported>2021-06</DateReported>
+						<CivicNumber>1344</CivicNumber>
+						<StreetName>SHAWNEE ROAD SW</StreetName>
+						<City code="CLGA">CALGARY</City>
+						<Province code="AB" description="ALBERTA" />
+						<PostalCode>T2Y2S7</PostalCode>
+						<UpdateSource code="C" description="Crt rptd" />
+					</CNAddress>
+					<CNAddress code="F2" description="Second Former Address">
+						<DateReported>2021-06</DateReported>
+						<StreetName>12 45TH ST NULL</StreetName>
+						<City code="TOR">TORONTO</City>
+						<Province code="ON" description="ONTARIO" />
+						<PostalCode>M9B6B5</PostalCode>
+						<UpdateSource code="S" description="Sts rptd" />
+					</CNAddress>
+				</CNAddresses>
+				<CNEmployments>
+					<CNEmployment code="ES" description="Subject&apos;sCurrent Employment">
+						<Employer>MISC</Employer>
+					</CNEmployment>
+					<CNEmployment code="EF" description="Subject&apos;s Former Employment">
+						<Occupation>WORKER</Occupation>
+					</CNEmployment>
+					<CNEmployment code="E2" description="Subject&apos;s 2nd Former Employment">
+						<Employer>SALES</Employer>
+					</CNEmployment>
+				</CNEmployments>
+				<CNTrades>
+					<CNTrade>
+						<DateReported>2021-06</DateReported>
+						<CreditorId>
+							<CustomerNumber>001ON02453</CustomerNumber>
+							<Name>BQE ROYALE VISA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>874-3030</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>464564769464646</AccountNumber>
+						<HighCreditAmount>000000010000</HighCreditAmount>
+						<PaymentTermAmount>000000000250</PaymentTermAmount>
+						<BalanceAmount>000000008585</BalanceAmount>
+						<PastDueAmount>000000007859</PastDueAmount>
+						<MonthsReviewed>03</MonthsReviewed>
+						<DateOpened>2019-12</DateOpened>
+						<DateLastActivityOrPayment>2021-05</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="4" description="Three or more payments past due" />
+						<HistoryDerogatoryCounters>
+							<Count90DayPastDue>03</Count90DayPastDue>
+						</HistoryDerogatoryCounters>
+						<PreviousHighPaymentRates>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2021-03</Date>
+							</PreviousHighPaymentRate>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2020-06</Date>
+							</PreviousHighPaymentRate>
+						</PreviousHighPaymentRates>
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+							<Narrative code="AZ" description="Amount in h/c column is credit limit" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2021-06</DateReported>
+						<CreditorId>
+							<CustomerNumber>650ON41860</CustomerNumber>
+							<Name>CAPITAL ONE CORP</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>464616131</AccountNumber>
+						<HighCreditAmount>000000025000</HighCreditAmount>
+						<PaymentTermAmount>000000000450</PaymentTermAmount>
+						<BalanceAmount>000000018500</BalanceAmount>
+						<PastDueAmount>000000150000</PastDueAmount>
+						<MonthsReviewed>03</MonthsReviewed>
+						<DateOpened>2019-10</DateOpened>
+						<DateLastActivityOrPayment>2021-05</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="4" description="Three or more payments past due" />
+						<HistoryDerogatoryCounters>
+							<Count90DayPastDue>03</Count90DayPastDue>
+						</HistoryDerogatoryCounters>
+						<PreviousHighPaymentRates>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2021-03</Date>
+							</PreviousHighPaymentRate>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2020-07</Date>
+							</PreviousHighPaymentRate>
+						</PreviousHighPaymentRates>
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+							<Narrative code="AZ" description="Amount in h/c column is credit limit" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2021-06</DateReported>
+						<CreditorId>
+							<CustomerNumber>015VS00075</CustomerNumber>
+							<Name>CS QEBE</Name>
+						</CreditorId>
+						<AccountNumber>946464646464646</AccountNumber>
+						<HighCreditAmount>000000015000</HighCreditAmount>
+						<PaymentTermAmount>000000000400</PaymentTermAmount>
+						<BalanceAmount>000000012502</BalanceAmount>
+						<PastDueAmount>000000011222</PastDueAmount>
+						<MonthsReviewed>10</MonthsReviewed>
+						<DateOpened>2019-08</DateOpened>
+						<DateLastActivityOrPayment>2021-05</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="4" description="Three or more payments past due" />
+						<HistoryDerogatoryCounters>
+							<Count30DayPastDue>02</Count30DayPastDue>
+							<Count60DayPastDue>02</Count60DayPastDue>
+							<Count90DayPastDue>04</Count90DayPastDue>
+						</HistoryDerogatoryCounters>
+						<PreviousHighPaymentRates>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2021-03</Date>
+							</PreviousHighPaymentRate>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2020-07</Date>
+							</PreviousHighPaymentRate>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2020-03</Date>
+							</PreviousHighPaymentRate>
+						</PreviousHighPaymentRates>
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+							<Narrative code="AZ" description="Amount in h/c column is credit limit" />
+						</Narratives>
+					</CNTrade>
+					<CNTrade>
+						<DateReported>2021-06</DateReported>
+						<CreditorId>
+							<CustomerNumber>001BB81489</CustomerNumber>
+							<Name>BNC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>390-7411</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<AccountNumber>44694646464646</AccountNumber>
+						<HighCreditAmount>000000012000</HighCreditAmount>
+						<PaymentTermAmount>000000000200</PaymentTermAmount>
+						<BalanceAmount>000000009859</BalanceAmount>
+						<PastDueAmount>000000009000</PastDueAmount>
+						<MonthsReviewed>03</MonthsReviewed>
+						<DateOpened>2019-07</DateOpened>
+						<DateLastActivityOrPayment>2021-05</DateLastActivityOrPayment>
+						<PortfolioType code="R" description="Revolving" />
+						<PaymentRate code="4" description="Three or more payments past due" />
+						<HistoryDerogatoryCounters>
+							<Count90DayPastDue>03</Count90DayPastDue>
+						</HistoryDerogatoryCounters>
+						<PreviousHighPaymentRates>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2021-03</Date>
+							</PreviousHighPaymentRate>
+							<PreviousHighPaymentRate code="4" description="Three or more payments past due">
+								<Date>2020-06</Date>
+							</PreviousHighPaymentRate>
+						</PreviousHighPaymentRates>
+						<Narratives>
+							<Narrative code="EX" description="Monthly payments" />
+							<Narrative code="AZ" description="Amount in h/c column is credit limit" />
+						</Narratives>
+					</CNTrade>
+				</CNTrades>
+				<CNLocalInquiries>
+					<CNLocalInquiry date="2021-05-09">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-03">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-03">
+						<CustomerId>
+							<CustomerNumber>999ON00689</CustomerNumber>
+							<Name>PRESIDENTS CHOICE MC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>204-2600</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999VX00244</CustomerNumber>
+							<Name>MINISTRYOF</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999VX00053</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>227-5228</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999FZ01412</CustomerNumber>
+							<Name>ONE DEALER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>877</AreaCode>
+									<Number>624-6247</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999IZ00012</CustomerNumber>
+							<Name>UNITED GUARANTY</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>596-3033</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>999FZ01321</CustomerNumber>
+							<Name>LENDCARE CAPITAL INC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>866</AreaCode>
+									<Number>291-4045</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-06-01">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-31">
+						<CustomerId>
+							<CustomerNumber>999VX00053</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>227-5228</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999VX00202</CustomerNumber>
+							<Name>MIN OF COMM SOC SERV</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>613</AreaCode>
+									<Number>536-7289</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999ZZ00392</CustomerNumber>
+							<Name>CGI  BUREAULINK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>703</AreaCode>
+									<Number>267-8298</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-30">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-29">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-29">
+						<CustomerId>
+							<CustomerNumber>999VX00129</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>519</AreaCode>
+									<Number>551-0431</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-29">
+						<CustomerId>
+							<CustomerNumber>999VX00129</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>519</AreaCode>
+									<Number>551-0431</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999BB00915</CustomerNumber>
+							<Name>BQUE LAURENTIENNE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>284-5400</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999FZ02113</CustomerNumber>
+							<Name>MERCEDES BENZ FINANC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>532-7362</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-28">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999BB00139</CustomerNumber>
+							<Name>TD AUTO FINANCE CAN</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>832-3321</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999VF00047</CustomerNumber>
+							<Name>FARM CREDIT CORP</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-27">
+						<CustomerId>
+							<CustomerNumber>999FZ02113</CustomerNumber>
+							<Name>MERCEDES BENZ FINANC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>532-7362</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-26">
+						<CustomerId>
+							<CustomerNumber>999BB00915</CustomerNumber>
+							<Name>BQUE LAURENTIENNE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>284-5400</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-26">
+						<CustomerId>
+							<CustomerNumber>481FZ00935</CustomerNumber>
+							<Name>DAIMLER TRUCK FINANC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>361-4680</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-26">
+						<CustomerId>
+							<CustomerNumber>999BB01053</CustomerNumber>
+							<Name>CANADIAN WESTERN BK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>423-8875</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-26">
+						<CustomerId>
+							<CustomerNumber>999MZ00047</CustomerNumber>
+							<Name>PATTERSON DENTAL CAN</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>745-4040</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-26">
+						<CustomerId>
+							<CustomerNumber>999ZZ00392</CustomerNumber>
+							<Name>CGI  BUREAULINK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>703</AreaCode>
+									<Number>267-8298</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-25">
+						<CustomerId>
+							<CustomerNumber>999BB00139</CustomerNumber>
+							<Name>TD AUTO FINANCE CAN</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>832-3321</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-25">
+						<CustomerId>
+							<CustomerNumber>999BB00915</CustomerNumber>
+							<Name>BQUE LAURENTIENNE</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>284-5400</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-25">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-24">
+						<CustomerId>
+							<CustomerNumber>999VX00129</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>519</AreaCode>
+									<Number>551-0431</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-23">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-23">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-23">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-22">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-22">
+						<CustomerId>
+							<CustomerNumber>999ZZ01762</CustomerNumber>
+							<Name>ROUTEONE LLC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>248</AreaCode>
+									<Number>455-7075</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-22">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-22">
+						<CustomerId>
+							<CustomerNumber>999FZ02469</CustomerNumber>
+							<Name>PRIMECAPIT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>437-5193</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-22">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-22">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-21">
+						<CustomerId>
+							<CustomerNumber>999ZZ00392</CustomerNumber>
+							<Name>CGI  BUREAULINK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>703</AreaCode>
+									<Number>267-8298</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-21">
+						<CustomerId>
+							<CustomerNumber>999VX00129</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>519</AreaCode>
+									<Number>551-0431</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-21">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-21">
+						<CustomerId>
+							<CustomerNumber>999FZ02469</CustomerNumber>
+							<Name>PRIMECAPIT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>437-5193</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-21">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-21">
+						<CustomerId>
+							<CustomerNumber>281FC01012</CustomerNumber>
+							<Name>BUDUCHNIST TORONTO</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>763-6883</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-21">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-20">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-20">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-20">
+						<CustomerId>
+							<CustomerNumber>999ON00689</CustomerNumber>
+							<Name>PRESIDENTS CHOICE MC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>204-2600</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-20">
+						<CustomerId>
+							<CustomerNumber>999FF00094</CustomerNumber>
+							<Name>ENERCARE HOME   COMM</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>943-6934</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-20">
+						<CustomerId>
+							<CustomerNumber>999VX00129</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>519</AreaCode>
+									<Number>551-0431</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-20">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-20">
+						<CustomerId>
+							<CustomerNumber>999FZ02469</CustomerNumber>
+							<Name>PRIMECAPIT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>437-5193</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-20">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>999UT01074</CustomerNumber>
+							<Name>BELL CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>888-8888</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>999ON00689</CustomerNumber>
+							<Name>PRESIDENTS CHOICE MC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>204-2600</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>999FF00094</CustomerNumber>
+							<Name>ENERCARE HOME   COMM</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>905</AreaCode>
+									<Number>943-6934</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>999FZ02469</CustomerNumber>
+							<Name>PRIMECAPIT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>437-5193</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-19">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-17">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-16">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-16">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-16">
+						<CustomerId>
+							<CustomerNumber>999VX00053</CustomerNumber>
+							<Name>BRUCE COUNTY SOC SER</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>227-5228</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-16">
+						<CustomerId>
+							<CustomerNumber>999FZ02469</CustomerNumber>
+							<Name>PRIMECAPIT</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>780</AreaCode>
+									<Number>437-5193</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-16">
+						<CustomerId>
+							<CustomerNumber>999ZZ00798</CustomerNumber>
+							<Name>INOVATEC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>604</AreaCode>
+									<Number>293-0202</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-16">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-15">
+						<CustomerId>
+							<CustomerNumber>999ZZ01390</CustomerNumber>
+							<Name>LENDESK TECHNOLOGIES</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>853-5979</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-15">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-15">
+						<CustomerId>
+							<CustomerNumber>999FS00056</CustomerNumber>
+							<Name>HOME TRUST COMPANY</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>360-4663</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-15">
+						<CustomerId>
+							<CustomerNumber>999ZZ00392</CustomerNumber>
+							<Name>CGI  BUREAULINK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>703</AreaCode>
+									<Number>267-8298</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-15">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-15">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-14">
+						<CustomerId>
+							<CustomerNumber>999UT01074</CustomerNumber>
+							<Name>BELL CANADA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>888</AreaCode>
+									<Number>888-8888</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-14">
+						<CustomerId>
+							<CustomerNumber>999FZ01503</CustomerNumber>
+							<Name>PAYPAL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>402</AreaCode>
+									<Number>740-7579</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-14">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-14">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-13">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-13">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-13">
+						<CustomerId>
+							<CustomerNumber>999FZ01859</CustomerNumber>
+							<Name>BORROWELL</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>416</AreaCode>
+									<Number>800-0950</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-13">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-13">
+						<CustomerId>
+							<CustomerNumber>999ZZ00392</CustomerNumber>
+							<Name>CGI  BUREAULINK</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>703</AreaCode>
+									<Number>267-8298</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-13">
+						<CustomerId>
+							<CustomerNumber>999FI00716</CustomerNumber>
+						</CustomerId>
+					</CNLocalInquiry>
+					<CNLocalInquiry date="2021-05-13">
+						<CustomerId>
+							<CustomerNumber>281ON01471</CustomerNumber>
+							<Name>CIBC CREDIT CARD SVC</Name>
+						</CustomerId>
+					</CNLocalInquiry>
+				</CNLocalInquiries>
+				<CNScores>
+					<CNScore productType="SCBS" productId="30129" description="FICO">
+						<VersionNumber>010</VersionNumber>
+						<ModelId>A</ModelId>
+						<ScoreNumber>1</ScoreNumber>
+						<ScoreIndicator>S</ScoreIndicator>
+						<Result>
+							<Value>00394</Value>
+						</Result>
+						<Reasons>
+							<Reason code="00013" description="Time since delinquency is too recent or unKnown." />
+							<Reason code="00018" description="Number of accounts with delinquency." />
+							<Reason code="00010" description="Balance to limit on bank/national,LOC or other revolving acct too high" />
+							<Reason code="00048" description="Number of accounts with recent delinquency." />
+						</Reasons>
+					</CNScore>
+				</CNScores>
+				<CNFraudWarnings>
+					<CNFraudWarning productId="SF" description="SAFESCAN WARNING">
+						<Messages>
+							<Message priority="000" code="0" description="NO FRAUD INDICATION WAS DETECTED" />
+						</Messages>
+					</CNFraudWarning>
+				</CNFraudWarnings>
+				<CNExtendedTrades>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>001ON02453</CustomerNumber>
+							<Name>BQE ROYALE VISA</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>874-3030</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<ETDateReported>2021-06-01</ETDateReported>
+						<ETDateOpened>2019-12-01</ETDateOpened>
+						<DateOfLastActivity>2021-05-25</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">003</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>003</TimesReported>
+						<CreditLimitAmount>0000010000</CreditLimitAmount>
+						<BalanceAmount>0000008585</BalanceAmount>
+						<PaymentTermAmount>0000000250</PaymentTermAmount>
+						<PastDueAmount>0000007859</PastDueAmount>
+						<AccountNumber>464564769464646</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-06-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2021-03-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-06-03</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>650ON41860</CustomerNumber>
+							<Name>CAPITAL ONE CORP</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>800</AreaCode>
+									<Number>481-3239</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<ETDateReported>2021-06-01</ETDateReported>
+						<ETDateOpened>2019-10-01</ETDateOpened>
+						<DateOfLastActivity>2021-05-25</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">003</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>003</TimesReported>
+						<CreditLimitAmount>0000025000</CreditLimitAmount>
+						<BalanceAmount>0000018500</BalanceAmount>
+						<PaymentTermAmount>0000000450</PaymentTermAmount>
+						<PastDueAmount>0000150000</PastDueAmount>
+						<AccountNumber>987464616461616131</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-06-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2021-03-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-07-10</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>015VS00075</CustomerNumber>
+							<Name>CS QEBE</Name>
+						</CreditorId>
+						<ETDateReported>2021-06-01</ETDateReported>
+						<ETDateOpened>2019-08-31</ETDateOpened>
+						<DateOfLastActivity>2021-05-25</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">002</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">002</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">004</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>010</TimesReported>
+						<CreditLimitAmount>0000015000</CreditLimitAmount>
+						<BalanceAmount>0000012502</BalanceAmount>
+						<PaymentTermAmount>0000000400</PaymentTermAmount>
+						<PastDueAmount>0000011222</PastDueAmount>
+						<AccountNumber>4946464646464646</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-06-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2021-03-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-07-29</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-06-11</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="3" description="Two payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-05-11</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="2" description="One payment past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-04-10</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-03-11</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-02-09</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="3" description="Two payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-01-10</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="2" description="One payment past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2019-12-10</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="1" description="Paid as agreed and up to date"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+					<CNExtendedTrade>
+						<AutoDataIndicator code="" description=""/>
+						<CreditorId>
+							<CustomerNumber>001BB81489</CustomerNumber>
+							<Name>BNC</Name>
+							<Telephone>
+								<ParsedTelephone>
+									<AreaCode>514</AreaCode>
+									<Number>390-7411</Number>
+								</ParsedTelephone>
+							</Telephone>
+						</CreditorId>
+						<ETDateReported>2021-06-01</ETDateReported>
+						<ETDateOpened>2019-07-01</ETDateOpened>
+						<DateOfLastActivity>2021-05-25</DateOfLastActivity>
+						<HistoryDerogatoryCounters>
+							<HistoryDerogatoryCounter code="2" description="One payment past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="3" description="Two payments past due">000</HistoryDerogatoryCounter>
+							<HistoryDerogatoryCounter code="4 and Above" description="Three or more payments past due">003</HistoryDerogatoryCounter>
+						</HistoryDerogatoryCounters>
+						<TimesReported>003</TimesReported>
+						<CreditLimitAmount>0000012000</CreditLimitAmount>
+						<BalanceAmount>0000009859</BalanceAmount>
+						<PaymentTermAmount>0000000200</PaymentTermAmount>
+						<PastDueAmount>0000009000</PastDueAmount>
+						<AccountNumber>44694646464646</AccountNumber>
+						<PaymentProfiles>
+							<PaymentProfile>
+								<ETDateReported>2021-06-01</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2021-03-02</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+							<PaymentProfile>
+								<ETDateReported>2020-06-03</ETDateReported>
+								<PortfolioType code="R" description="Revolving"/>
+								<PaymentRate code="4" description="Three or more payments past due"/>
+								<PaymentFrequency code="01" description="Monthly"/>
+								<ReportingFrequency code="01" description="Monthly"/>
+							</PaymentProfile>
+						</PaymentProfiles>
+					</CNExtendedTrade>
+				</CNExtendedTrades>
+				<CNTelephoneNumbers>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>416</AreaCode>
+								<Number>8665685</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2011-03-25</Date>
+								<SourceIdentifier>481BB15964</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2021-03-03</Date>
+								<SourceIdentifier>999ON00689</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>416</AreaCode>
+								<Number>3432568</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2020-10-05</Date>
+								<SourceIdentifier>281ON01471</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2021-03-02</Date>
+								<SourceIdentifier>281ON01471</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+					<CNTelephoneNumber>
+						<Telephone>
+							<ParsedTelephone telephoneType="RESIDENTIAL/HOME">
+								<AreaCode>306</AreaCode>
+								<Number>7695574</Number>
+							</ParsedTelephone>
+						</Telephone>
+						<DataManagements>
+							<DataManagement code="FR" description="Date First Reported">
+								<Date>2021-01-27</Date>
+								<SourceIdentifier>999VF00047</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+							<DataManagement code="LR" description="Date Last Received">
+								<Date>2021-01-27</Date>
+								<SourceIdentifier>999VF00047</SourceIdentifier>
+								<ModeOfAccess code="S" description="STS"/>
+							</DataManagement>
+						</DataManagements>
+					</CNTelephoneNumber>
+				</CNTelephoneNumbers>
+			</CNConsumerCreditReport>
+		</CNConsumerCreditReports>
+	</EfxReport>
+</EfxTransmit>
